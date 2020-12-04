@@ -19,6 +19,7 @@ Windows平台
 
 #
 技术支持: alex@blueberry-tek.com
+出售Airplay SDK ,souce code 源码
 
 The Windows/Android app supports airplay2 and dlna.
 ChromeCast is coming soon.
