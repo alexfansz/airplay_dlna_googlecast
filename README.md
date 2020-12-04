@@ -18,10 +18,10 @@ Windows平台
    3) 启动multiscreenSetup， 点击“显示usb连接的安卓手机”,就可以投屏了，鼠标可以操作手机
 
 #
-技术支持: alex@blueberry-tek.com
+技术支持: alex_fan_sz@hotmail.com
 出售Airplay SDK ,souce code 源码
 
 The Windows/Android app supports airplay2 and dlna.
 ChromeCast is coming soon.
 
-email: alex@blueberry-tek.com
+email: alex_fan_sz@hotmail.com
