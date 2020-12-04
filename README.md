@@ -1,5 +1,5 @@
-# airplay_dlna_googlecast
-www.basicgo.net
+# airplay dlna googlecast
+Airplay DLNA SDK Source code 源码
 #
 Android平台
 1.安装vCast_2.0.apk
