@@ -25,3 +25,4 @@ The Windows/Android app supports airplay2 and dlna.
 ChromeCast is coming soon.
 
 email: alex_fan_sz@hotmail.com
+phone & wechat: 18718770267
