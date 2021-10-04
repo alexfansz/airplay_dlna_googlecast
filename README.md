@@ -3,7 +3,7 @@ Airplay Airplay2 DLNA SDK Source code 源码
 #
 Android平台
 screengo_tv.apk
-![image](https://github.com/alexfansz/airplay_dlna_googlecast/upload/master/screengo_1.jpg)
+![image](screengo_1.jpg)
 
 
 Windows平台
