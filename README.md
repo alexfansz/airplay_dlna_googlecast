@@ -5,7 +5,7 @@ Android平台(接收安卓，苹果手机，windows电脑投屏器)
 ![image](screengo_1.jpg)
 
 安装投屏狗电视端(screengo_tv.apk)到安卓电视或Tvbox,平板等大屏设备，
-投屏狗电视端支持苹果Airplay, android投屏狗手机端(screengo.apk),Windows 电脑Usb投屏发射器
+投屏狗电视端支持苹果Airplay, android投屏狗手机端(screengo.apk),Windows 电脑Usb投屏发射器[说明一下，windows usb投屏器不需要安装软件，即插即用，和下面windows接收软件是两个不同的项目)
 
 
 #
