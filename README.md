@@ -2,8 +2,8 @@
 Airplay Airplay2 DLNA SDK Source code 源码
 #
 Android平台
-1.安装vCast_2.0.apk
-2.要求android系统5.0以上
+screengo_tv.apk
+![image](https://github.com/alexfansz/airplay_dlna_googlecast/upload/master/screengo_1.jpg)
 
 
 Windows平台
