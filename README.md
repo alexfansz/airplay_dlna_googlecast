@@ -2,8 +2,10 @@
 Airplay Airplay2 DLNA SDK Source code 源码
 #
 Android平台
-screengo_tv.apk
 ![image](screengo_1.jpg)
+
+安装投屏狗电视端(screengo_tv.apk)到安卓电视或Tvbox,平板等大屏设备，
+投屏狗电视端支持苹果Airplay, android投屏狗手机端(screengo.apk),Windows 电脑Usb投屏发射器
 
 
 Windows平台
