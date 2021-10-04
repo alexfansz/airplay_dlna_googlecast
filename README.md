@@ -8,7 +8,10 @@ Android平台(接收安卓，苹果手机，windows电脑投屏器)
 投屏狗电视端支持苹果Airplay, android投屏狗手机端(screengo.apk),Windows 电脑Usb投屏发射器
 
 
-
+#
+#
+#
+#
 ==================================
 Windows平台（接收安卓，苹果手机投屏软件）
 1. 安装苹果公司组件Bonjour.msi
