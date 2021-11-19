@@ -21,6 +21,7 @@ Android平台(接收安卓，苹果手机，windows电脑usb投屏器).
 Windows平台（接收安卓，苹果手机投屏软件）
 1. 安装苹果公司组件Bonjour.msi
 2. 安装应用程序ScreenGoSetup.msi
+#
 ![image](win_reciever.png)
 
 #
