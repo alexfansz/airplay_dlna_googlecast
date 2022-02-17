@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/plug_msc_bg"
+	    android:layout_gravity="center"
+	    android:padding="10dip">
+	    <ProgressBar android:id="@+id/spinner"
+	        style="?android:attr/progressBarStyleLarge"
+	        android:layout_gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+	
+	    <TextView android:id="@+id/loading"
+	        android:paddingTop="5dip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:textSize="14sp"
+	        android:textColor="#ffffffff" />
+	
+	
+	    <LinearLayout
+	        android:id="@+id/titleandbuttons"
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone" >
+	        <LinearLayout
+	            android:orientation="vertical"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="8dip">
+	            <TextView android:id="@+id/line1"
+	                android:paddingTop="5dip"
+	                android:paddingBottom="5dip"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:ellipsize="end"
+	                android:textSize="14sp"
+	                android:textColor="#ffffffff" />
+	            <TextView android:id="@+id/line2"
+	                android:paddingTop="5dip"
+	                android:paddingBottom="5dip"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:ellipsize="end"
+	                android:textSize="14sp"
+	                android:textColor="#ffffffff" />
+	        </LinearLayout>
+	        <include layout="@layout/plugin_music_controller"/>
+	    </LinearLayout>
+	</LinearLayout>
+	
+	<com.xindawn.DLAN.plugins.videoplay.CountdownTextView
+		android:id="@+id/exit_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:textSize="90sp"
+		android:textColor="#ddffffff"/>
+</FrameLayout>

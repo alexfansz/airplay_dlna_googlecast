@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 前的内容作为标识使用  不可删除 -->
+    <string-array name="media_types" translatable="false">
+    	<item>image/マイ画像</item>
+    	<item>audio/マイ音楽</item>
+    	<item>video/マイビデオ</item>
+    </string-array>
+    
+    <!-- 需要过滤不显示的目录  -->
+    <string-array name="filterdirectory">
+    	<item>LOST.DIR</item>
+    	<item>RECYCLE</item>
+    	<item>DUMMY.DIR</item>
+    </string-array>
+    
+    <string-array name="permission_entries">
+        <item>Always Allow</item>
+        <item>Always Ask</item>
+        <item>Always Reject</item>
+    </string-array>
+    <string-array name="permission_entriesvalue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <!-- 播放模式 -->
+    <string-array name="play_mode">
+        <item>シングル放送</item>
+        <item>順序放送</item>
+        <item>シングルループ放送</item>
+        <item>順序ループ放送</item>
+    </string-array>
+    
+</resources>

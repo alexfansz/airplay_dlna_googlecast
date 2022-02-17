@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff000000"
+	>
+	<com.xindawn.DLAN.plugins.pictureplay.PictureSpace
+		android:id="@+id/pictureSpace"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <FrameLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center">
+			<ImageView
+				android:id="@+id/contentImage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_gravity="center"/>
+		</FrameLayout>
+	</com.xindawn.DLAN.plugins.pictureplay.PictureSpace>
+	
+	<!-- Title -->
+	<TextView
+		android:id="@+id/pic_title_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		/>
+	
+	<!-- Controller -->
+	<com.xindawn.DLAN.plugins.pictureplay.PictureController
+		android:id="@+id/pictureController"
+		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent">
+   		<RelativeLayout
+			android:id="@+id/pictureControllerZoon"
+			android:layout_width="fill_parent"
+	   		android:layout_height="fill_parent">
+			<!-- Previous Image -->
+			<ImageView
+				android:id="@+id/pre_image"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"
+				android:padding="15dip"
+				android:src="@drawable/plug_pic_prev"
+				android:focusable="true"
+				android:clickable="true"
+				/>
+			<!-- Next Image -->
+			<ImageView
+				android:id="@+id/next_image"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:padding="15dip"
+				android:src="@drawable/plug_pic_next"
+				android:focusable="true"
+				android:clickable="true"
+				/>
+			<!-- Slide Show -->
+			<TextView
+				android:id="@+id/slide_text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentBottom="true"
+				android:paddingRight="15dip"
+				android:background="@drawable/plug_pic_slide"
+				android:drawableLeft="@drawable/plug_pic_play"
+				android:text="@string/plug_image_slide"
+				android:textColor="@android:color/white"
+				android:gravity="center"
+				android:focusable="true"
+				android:clickable="true"
+				/>
+				
+			<!-- Zoom -->
+			<LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentBottom="true">
+		        <!-- Zoom Out Image -->
+				<ImageView
+					android:id="@+id/zoomOut_image"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/plug_pic_zoomout"
+					android:focusable="true"
+					android:clickable="true"
+					/>
+				<!-- Zoom In Image -->
+				<ImageView
+					android:id="@+id/zoomIn_image"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/plug_pic_zoomin"
+					android:focusable="true"
+					android:clickable="true"
+					android:paddingRight="5dip"
+					/>
+			</LinearLayout>
+			<!-- Close/Back Image -->
+			<ImageView
+				android:id="@+id/back_image"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:padding="5dip"
+				android:src="@drawable/plug_pic_close"
+				android:focusable="true"
+				android:clickable="true"
+				/>
+		</RelativeLayout>
+   	</com.xindawn.DLAN.plugins.pictureplay.PictureController>
+	
+	<LinearLayout
+		android:id="@+id/progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+		<ProgressBar
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_gravity="center">
+		</ProgressBar>
+	</LinearLayout>
+	
+	<com.xindawn.DLAN.plugins.videoplay.CountdownTextView
+		android:id="@+id/exit_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:textSize="90sp"
+		android:textColor="#ddffffff"/>
+</FrameLayout>

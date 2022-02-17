@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "net.basicgo.tvcast"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 28
+        versionName "2.0"
+
+        ndk {
+
+            //abiFilters 'armeabi-v7a'
+            abiFilters 'armeabi-v7a','arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            // 开启混淆
+            minifyEnabled true
+            // Zipalign压缩优化
+            //zipAlignEnabled true
+            // 移除无用的资源文件
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            // 开启混淆
+            //minifyEnabled true
+            // Zipalign压缩优化
+            //zipAlignEnabled true
+            // 移除无用的资源文件
+            //shrinkResources true
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            version "3.10.2"
+            path "CMakeLists.txt"
+        }
+    }
+
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['src/main/libs']
+        }
+    }
+
+    packagingOptions {       //避免重复导入库
+
+    }
+
+    compileOptions {
+        incremental = false;
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    ndkVersion '22.1.7171670'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //implementation 'com.android.support:support-v4:25.3.1'
+    //implementation 'com.android.support:support-v4:' + '27.1.1'
+    //implementation 'com.android.support:recyclerview-v7:' + '27.1.1'
+    implementation files('src/main/java/com/xindawn/DLAN/plugins/mediacenter.jar')
+    implementation 'com.google.zxing:core:3.4.1'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    //    implementation project(path: ':exoplayer-library-dash')
+}

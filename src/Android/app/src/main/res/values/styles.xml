@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <style name="SysButton" parent="@android:style/Widget.Button">
+        <item name="android:src">@drawable/sys_btn</item>
+        <item name="android:background">@drawable/sys_btn</item>
+        <item name="android:textColor">@drawable/head_btn_color</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+    
+    <style name="SysButton.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+	<style name="KeyPrompt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">15dip</item>
+    </style>
+    
+    <!-- 弹出窗口动画 -->
+    <style name="PopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_exit</item>
+	</style>
+	<!-- Activity动画
+	<style name="AnimationActivity" parent="@android:style/Animation.Activity" mce_bogus="1"> 
+		<item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>  
+		<item name="android:activityOpenExitAnimation">@anim/push_left_out</item>   
+		<item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+		<item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+	</style>    -->
+    <style name="list_item_cell_seperator_layout"> 
+        <item name="android:layout_width">2dip</item> 
+        <item name="android:layout_height">fill_parent</item> 
+        <item name="android:background">@drawable/dmp_transfer_head_bg_sep</item> 
+    </style>
+    
+    <!-- VideoPlayer -->
+	<style name="MediaButton">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:background">@drawable/plug_vp_btn_bg</item>
+    </style>
+	<style name="MediaButton.ScreenMode">
+        <item name="android:src">@drawable/plug_vp_screen_mode</item>
+    </style>
+    <style name="MediaButton.ScreenBright">
+        <item name="android:src">@drawable/plug_vp_bright_mode</item>
+    </style>
+    <style name="MediaButton.Previous">
+        <item name="android:src">@drawable/plug_vp_previous</item>
+    </style>
+    <style name="MediaButton.Next">
+        <item name="android:src">@drawable/plug_vp_next</item>
+    </style>
+    <style name="MediaButton.Play">
+        <item name="android:src">@drawable/plug_vp_play</item>
+    </style>
+    <style name="MediaButton.Stop">
+        <item name="android:src">@drawable/plug_vp_stop</item>
+    </style>
+    <style name="MediaButton.Pause">
+        <item name="android:src">@drawable/plug_vp_pause</item>
+    </style>
+    <style name="MediaButton.Ffwd">
+        <item name="android:src">@drawable/plug_vp_next</item>
+    </style>
+    <style name="MediaButton.Rew">
+        <item name="android:src">@drawable/plug_vp_previous</item>
+    </style>
+    <style name="MediaButton.Exit">
+        <item name="android:src">@drawable/plug_vp_exit</item>
+    </style>
+    <style name="MediaButton.More">
+        <item name="android:src">@drawable/plug_vp_more</item>
+    </style>
+    
+    <style name="VolumeButton">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3dip</item>
+        <item name="android:paddingRight">3dip</item>
+        <item name="android:background">@drawable/plug_vp_btn_bg</item>
+    </style>
+</resources>

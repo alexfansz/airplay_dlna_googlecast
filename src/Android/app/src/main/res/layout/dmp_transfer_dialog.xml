@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- 文件名 -->
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_title1"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:text="@string/dmp_transfer_dialog_title" 
+        android:textColor="@android:color/white"
+        />
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_title"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:textColor="@color/color_green"
+        android:singleLine="true"
+        android:maxLines="2"
+        android:layout_toRightOf="@id/dmp_transfer_dialog_title1"
+        android:layout_alignTop="@id/dmp_transfer_dialog_title1"
+        />
+    
+    <!-- 文件大小 -->
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_filesize1"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:text="@string/dmp_transfer_dialog_filesize"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/dmp_transfer_dialog_title"
+        />
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_filesize"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:textColor="@color/color_green"
+        android:singleLine="true"
+        android:lines="1"
+        android:layout_toRightOf="@id/dmp_transfer_dialog_filesize1"
+        android:layout_alignTop="@id/dmp_transfer_dialog_filesize1"
+        />
+        
+    <!-- 源位置 -->
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_src1"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:text="@string/dmp_transfer_dialog_src"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/dmp_transfer_dialog_filesize"
+        />
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_src"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:textColor="@color/color_green"
+        android:maxLines="2"
+        android:layout_toRightOf="@id/dmp_transfer_dialog_src1"
+        android:layout_alignTop="@id/dmp_transfer_dialog_src1"
+        />
+        
+    <!-- 目的位置 -->
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_dest1"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:text="@string/dmp_transfer_dialog_dest"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/dmp_transfer_dialog_src"
+        />
+    <TextView 
+        android:id="@+id/dmp_transfer_dialog_dest"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:textColor="@color/color_green"
+        android:maxLines="2"
+        android:layout_toRightOf="@id/dmp_transfer_dialog_dest1"
+        android:layout_alignTop="@id/dmp_transfer_dialog_dest1"
+        />
+        
+    <!-- 操作按钮 -->
+    <LinearLayout
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:paddingTop="20dip"
+    	android:paddingBottom="10dip"
+    	android:gravity="center"
+    	android:layout_below="@id/dmp_transfer_dialog_dest">
+	    <Button
+	    	android:id="@+id/dmp_transfer_dialog_btn_play"
+	    	android:text="@string/dmp_transfer_dialog_btn_play"
+	    	android:layout_marginRight="5dip"
+	    	style="@style/SysButton.Dialog"
+	    	/>
+	   	<Button
+	    	android:id="@+id/dmp_transfer_dialog_btn_retry"
+	    	android:text="@string/dmp_transfer_dialog_btn_retry"
+	    	android:layout_marginRight="5dip"
+	    	style="@style/SysButton.Dialog"
+	    	/>
+	    <Button
+	    	android:id="@+id/dmp_transfer_dialog_btn_stop"
+	    	android:text="@string/dmp_transfer_dialog_btn_stop"
+	    	android:layout_marginRight="5dip"
+	    	style="@style/SysButton.Dialog"
+	    	/>
+	    <Button
+	    	android:id="@+id/dmp_transfer_dialog_btn_delete"
+	    	android:text="@string/dmp_transfer_dialog_btn_delete"
+	    	android:layout_marginRight="5dip"
+	    	style="@style/SysButton.Dialog"
+	    	/>
+    </LinearLayout>
+</RelativeLayout>

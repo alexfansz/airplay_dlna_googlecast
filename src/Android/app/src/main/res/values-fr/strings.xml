@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">Lecteur multimédia réseau</string>
+    <string name="dialog_waiting">Attente</string>
+    <string name="dialog_prompt">Question</string>
+    <string name="dialog_operate">Opération</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_search_msg">Aucun périphérique trouvé, réessayer?</string>
+    <string name="toast_disconn_service">Non lié à un service. </string>
+    <string name="dialog_searching_msg">Recherche de périphérique...</string>
+    <string name="dialog_openning_msg">Ouverture…</string>
+    <string name="btn_refresh">Rafraîchir</string>
+    <string name="no_such_app">Aucune application ne peut ouvrir ce fichier!</string>
+    <string name="dialog_wlan_fail">Question</string>
+    <string name="dialog_wlan_msg">Le partage réseau nécessite une connexion WiFi, cliquez OK pour activer, Annuler pour continuer sans.</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">Lecteur multimédia réseau</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">Initialisation des périphériques, Veuillez patienter ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">Sélectionné</string>
+    <string name="dmd_key_clear">Effacer objets transférés</string>
+    <string name="dmd_clear_transfer_msg">Êtes-vous sûr de vouloir effacer les objets transférés?</string>
+    <string name="dmd_clear_transfer_all">Effacer tout</string>
+    <string name="dmd_clear_transfer_succ">Effacement effectué</string>
+    <string name="dmd_file_not_exitsted">Le fichier n\'existe pas</string>
+    <string name="dmu_device_selector_title">Télécharger vers</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">Lecteur multimédia</string>
+    <string name="dmp_device_item_desc"> Fichier(s)</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">...</string>
+    <string name="dmp_media_device">Périphérique(s)</string>
+    <string name="dmp_key_direction">Sélectionner</string>
+    <string name="dmp_key_ok">Sélectionné/lecture</string>
+    <string name="dmp_key_download">Transféré/Télécharger le fichier sélectionné</string>
+    <string name="dmp_key_back">Retour</string>
+    <string name="dmp_btn_transfer">Transferts</string>
+    <string name="dmp_transfer_list">Liste des transferts</string>
+    <string name="dmp_transfer_list_title">Titre</string>
+    <string name="dmp_transfer_list_src">Source</string>
+    <string name="dmp_transfer_list_dest">Destination</string>
+    <string name="dmp_transfer_list_status">Statut</string>
+    <string name="dmp_transfer_dialog_title">Titre: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">Taille fichier: &#160;</string>
+    <string name="dmp_transfer_dialog_src">Emplacement de la source : &#160;</string>
+    <string name="dmp_transfer_dialog_dest">Emplacement de destination: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">Jouer</string>
+    <string name="dmp_transfer_dialog_btn_retry">Réessayer</string>
+    <string name="dmp_transfer_dialog_btn_stop">Arrêt</string>
+    <string name="dmp_transfer_dialog_btn_delete">Effacer</string>
+    <string name="dmp_transfer_btn_delete">Effacer tout</string>
+    <string name="dmp_transfer_btn_delete_succ">Effacement effectué</string>
+    <string name="dmp_transfer_status_waiting">Attente</string>
+    <string name="dmp_transfer_status_succ">Effectué</string>
+    <string name="dmp_transfer_status_fail">Echec</string>
+    <string name="dmp_request_fail">Echec de la demande</string>
+    <string name="dmp_see_all_transfer">Voir le transfert</string>
+    <string name="dmp_transfer_file_msg">Faut-il transférer le fichier <xliff:g id="dd">%s</xliff:g> ?</string>
+    <string name="dmp_download_file_msg">Faut-il télécharger le fichier <xliff:g id="dd">%s</xliff:g> ?</string>
+    <string name="dmp_upload_file_msg">Faut-il télécharger le fichier <xliff:g id="dd">%s</xliff:g> ?</string>
+    <string name="dmp_download_add_item">Fichier ajouté à la liste des transferts</string>
+    <string name="dmp_download_add_item_fail">Ne peut être ajouté à la liste des transferts</string>
+    <string name="dmp_media_item_null">Ressource invalide</string>
+    <string name="dmp_local_media_center">Mon appareil</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(Local)</string>
+    <string name="dmp_invalid_device">Le périphérique actuel a expiré</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">Serveur de médias</string>
+    <string name="dms_device_share">Partage local</string>
+    <string name="dms_open_share">Partager</string>
+    <string name="dms_close_share">Arrêter</string>
+    <string name="dms_set_share">Ajouter</string>
+    <string name="dms_set_share_mediastore">Partage des médias internes</string>
+    <string name="dms_set_share_folder">Ajouter un dossier au partage</string>
+    <string name="dms_add_share_folder">Ajouter partage</string>
+    <string name="dms_key_del_share">Effacer le dossier partagé</string>
+    <string name="dms_key_enter_folder">Entrer le dossier sélectionné</string>
+    <string name="dms_key_set_folder">Activer le dossier partagé</string>
+    <string name="dms_image">Mes photos</string>
+    <string name="dms_audio">Ma musique</string>
+    <string name="dms_video">Mes vidéos</string>
+    <string name="dms_device_storage">Périphériques de stockage</string>
+    <string name="dms_sdcard_storage">Carte SD</string>
+    <string name="dms_flash_storage">Mémoire interne</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">Partage activé</string>
+    <string name="dms_share_disabled">Partage désactivé</string>
+    <string name="dms_share_enable_msg">Activation du partage…</string>
+    <string name="dms_share_disable_msg">Désactivation du partage…</string>
+    <string name="dms_remove_mediastore">Désactiver le partage des médias internes?</string>
+    <string name="dms_remove_directory">Désactiver le partage du dossier <xliff:g id="dd">%s</xliff:g> ?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_name">Nom du partage des médias locaux</string>
+    <string name="settings_upload">Authoriser les fichiers multimédia à être téléchargés en local</string>
+    <string name="settings_upload_allow">Téléchargement authorisé</string>
+    <string name="settings_upload_reject">Téléchargement non authorisé</string>
+    <string name="settings_auto_start">Démarrer automatiquement la lecture</string>
+    <string name="settings_auto_yes">Lecture automatique</string>
+    <string name="settings_auto_no">Lecture manuelle</string>
+    <string name="settings_key_ok">Changer option</string>
+    <string name="settings_upload_location">Emplacement de téléchargement des fichiers multimédias distants</string>
+    <string name="settings_version">Information sur la version</string>
+    <string name="settings_dmr">Comme lecteur multimédia distant</string>
+    <string name="settings_dmr_opening">Ouverture…</string>
+    <string name="settings_dmr_opened">Ouvert</string>
+    <string name="settings_dmr_closed">Fermé</string>
+    <string name="settings_dmr_closing">Fermeture…</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">C\'est la première photo</string>
+    <string name="plug_image_last_img">C\'est la dernière photo</string>
+    <string name="plug_image_slide">Diaporama</string>
+    <string name="plug_image_stop_slide">Arrêt</string>
+    <string name="plug_image_app_name">Gallerie photo</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">Connexion à <xliff:g id="HOST">%s</xliff:g></string>
+    <string name="plug_music_playback_failed">Désolé, le lecteur audio ne peut pas lire ce type de fichier.</string>
+    <string name="plug_music_app_name">Lecteur audio</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">Chargement…</string>
+    <string name="plug_video_waiting">Attente</string>
+    <string name="plug_video_err_unknown">Désolé, cette vidéo ne peut pas être jouée.</string>
+    <string name="plug_video_err_title">Ne peut pas jouer le vidéo</string>
+    <string name="plug_video_err_unsupport">Désolé, cette vidéo ne permet pas de streaming vers ce periphérique.</string>
+    <string name="plug_video_playmode_title">Sélectionner le mode de lecture</string>
+    <string name="plug_video_app_name">Lecteur vidéo</string>
+    <string name="plug_video_unsupport_seek">Recherche non supportée</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

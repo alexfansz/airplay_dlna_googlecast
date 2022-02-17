@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">Eホームメディアセンター</string>
+    <string name="dialog_waiting">待っている</string>
+    <string name="dialog_prompt">プロンプト</string>
+    <string name="dialog_operate">操作する</string>
+    <string name="dialog_ok">確認</string>
+    <string name="dialog_cancel">キャンセル</string>
+    <string name="dialog_search_msg">DLNAディバイス未接続、再試行？</string>
+    <string name="toast_disconn_service">DLNAサービス未接続. </string>
+    <string name="dialog_searching_msg">DLNAディバイス探す...</string>
+    <string name="dialog_openning_msg">開始中…</string>
+    <string name="btn_refresh">リフレッシュ</string>
+    <string name="no_such_app">このファイルを開けるアプリケーションが有りません!</string>
+    <string name="dialog_wlan_fail">ネットワーク設定</string>
+    <string name="dialog_wlan_msg">DLNA起動するにはWLAN機能が必要。WLAN機能を起?</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">Eホームメディアセンター</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">メディアディバイス初期化実行中、お待ち下さい ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">選択しました</string>
+    <string name="dmd_key_clear">移転アイテムを削除します</string>
+    <string name="dmd_clear_transfer_msg">移転アイテムを削除しますか？</string>
+    <string name="dmd_clear_transfer_all">全て削除</string>
+    <string name="dmd_clear_transfer_succ">削除しました</string>
+    <string name="dmd_file_not_exitsted">ファイルが存在しません</string>
+    <string name="dmu_device_selector_title">アップロード</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">メディアプレーヤー</string>
+    <string name="dmp_device_item_desc">ファイル</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">...</string>
+    <string name="dmp_media_device">メディア装置</string>
+    <string name="dmp_key_direction">選択</string>
+    <string name="dmp_key_ok">選択しました/再生</string>
+    <string name="dmp_key_download">アップロード/ダウンロード　選択したファイル</string>
+    <string name="dmp_key_back">戻る</string>
+    <string name="dmp_btn_transfer">移転リスト</string>
+    <string name="dmp_transfer_list">移転リスト</string>
+    <string name="dmp_transfer_list_title">曲目</string>
+    <string name="dmp_transfer_list_src">來源位置</string>
+    <string name="dmp_transfer_list_dest">目的位置</string>
+    <string name="dmp_transfer_list_status">状態</string>
+    <string name="dmp_transfer_dialog_title">曲目: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">ファイルサイズ: &#160;</string>
+    <string name="dmp_transfer_dialog_src">來源位置: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">目的位置: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">再生</string>
+    <string name="dmp_transfer_dialog_btn_retry">再試行</string>
+    <string name="dmp_transfer_dialog_btn_stop">停止</string>
+    <string name="dmp_transfer_dialog_btn_delete">削除</string>
+    <string name="dmp_transfer_btn_delete">全て削除</string>
+    <string name="dmp_transfer_btn_delete_succ">削除したアイテム</string>
+    <string name="dmp_transfer_status_waiting">待っている</string>
+    <string name="dmp_transfer_status_succ">完成した</string>
+    <string name="dmp_transfer_status_fail">失敗</string>
+    <string name="dmp_request_fail">メディアリスト要求が失敗した</string>
+    <string name="dmp_see_all_transfer">移転を見る</string>
+    <string name="dmp_transfer_file_msg">このファイルを移転しますか <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_file_msg">このファイルをダウンロードしますか <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg"> このファイルをアップロードしますか<xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">移転リストに追加しました</string>
+    <string name="dmp_download_add_item_fail">移転リストに追加できません</string>
+    <string name="dmp_media_item_null">ソース無効</string>
+    <string name="dmp_local_media_center">私のディバイス</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(ローカル)</string>
+    <string name="dmp_invalid_device">今のディバイスは時間切れです</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">メディアサーバー</string>
+    <string name="dms_device_share">ローカル共有</string>
+    <string name="dms_open_share">共有開始</string>
+    <string name="dms_close_share">共有停止</string>
+    <string name="dms_set_share">共有追加</string>
+    <string name="dms_set_share_mediastore">ローカルメディアを共有</string>
+    <string name="dms_set_share_folder">共有ディレクトリ追加</string>
+    <string name="dms_add_share_folder">共有追加</string>
+    <string name="dms_key_del_share">共有したディレクトリを削除</string>
+    <string name="dms_key_enter_folder">共有ディレクトリを開く</string>
+    <string name="dms_key_set_folder">共有ディレクトリの設定</string>
+    <string name="dms_image">マイ画像</string>
+    <string name="dms_audio">マイ音楽</string>
+    <string name="dms_video">マイビデオ</string>
+    <string name="dms_device_storage">ローカル保存装置</string>
+    <string name="dms_sdcard_storage">SDカード</string>
+    <string name="dms_flash_storage">フラッシュ</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">共有を起動する</string>
+    <string name="dms_share_disabled">共有無効</string>
+    <string name="dms_share_enable_msg">共有起動中…</string>
+    <string name="dms_share_disable_msg">共有停止中…</string>
+    <string name="dms_remove_mediastore">共有したメディア装置を削除しますか?</string>
+    <string name="dms_remove_directory">共有したフォルタを削除しますか <xliff:g id="dd">%s</xliff:g>?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_name">ローカル共有の名前を設定する</string>
+    <string name="settings_upload">Allows media files to be uploaded to local device</string>
+    <string name="settings_upload_allow">アップロード許可する</string>
+    <string name="settings_upload_reject">アップロード拒否する</string>
+    <string name="settings_auto_start">起動後自動的にDLNAメディア装置に設定させる</string>
+    <string name="settings_auto_yes">自動実行</string>
+    <string name="settings_auto_no">自動実行しない</string>
+    <string name="settings_key_ok">オプション変更</string>
+    <string name="settings_upload_location">メディアファイルのアップロード位置を削除する</string>
+    <string name="settings_version">ヴァージョン情報</string>
+    <string name="settings_dmr">遠隔メディアプレーヤーに設定させる</string>
+    <string name="settings_dmr_opening">開始中…</string>
+    <string name="settings_dmr_opened">開啟終了</string>
+    <string name="settings_dmr_closed">關閉終了</string>
+    <string name="settings_dmr_closing">關閉中…</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">最初の写真です</string>
+    <string name="plug_image_last_img">最後の写真です</string>
+    <string name="plug_image_slide">再生開始</string>
+    <string name="plug_image_stop_slide">再生停止</string>
+    <string name="plug_image_app_name">画像ビューア</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">接続中<xliff:g id="HOST">%s</xliff:g></string>
+    <string name="plug_music_playback_failed">この動画は再生できません.</string>
+    <string name="plug_music_app_name">音楽アプレーヤー</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">読取中…</string>
+    <string name="plug_video_waiting">等待中</string>
+    <string name="plug_video_err_unknown">この動画は再生できません.</string>
+    <string name="plug_video_err_title">この動画は再生できません.</string>
+    <string name="plug_video_err_unsupport">この動画は処理できません.</string>
+    <string name="plug_video_playmode_title">再生モードを選択する</string>
+    <string name="plug_video_app_name">ビデオ</string>
+    <string name="plug_video_unsupport_seek">操作（seek)をサポートしていません</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">Главная Пресс-центр</string>
+    <string name="dialog_waiting">Пожалуйста, подождите</string>
+    <string name="dialog_prompt">подсказывать</string>
+    <string name="dialog_operate">работать</string>
+    <string name="dialog_ok">хорошо</string>
+    <string name="dialog_cancel">отменить</string>
+    <string name="dialog_search_msg">Не искать устройство, будь то повторите?</string>
+    <string name="toast_disconn_service">Не подключен на D L N A</string>
+    <string name="dialog_searching_msg">Поиск устройств…</string>
+    <string name="dialog_openning_msg">открытие ...</string>
+    <string name="btn_refresh">обновление</string>
+    <string name="no_such_app">Приложение не может открыть этот файл!</string>
+    <string name="dialog_wlan_fail">подсказывать</string>
+    <string name="dialog_wlan_msg">Начало DLNA необходимо открыть локальную сеть, убедитесь, чтобы открыть?</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">Главная Пресс-центр</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">Медиа устройство инициализации, пожалуйста, подождите ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">Рабочий ток пункта</string>
+    <string name="dmd_key_clear">Ясно пунктов передачи</string>
+    <string name="dmd_clear_transfer_msg">Чтобы подтвердить, что вы хотите очистить передаче пунктов?</string>
+    <string name="dmd_clear_transfer_all">Очистить все</string>
+    <string name="dmd_clear_transfer_succ">Очистить завершенные элементы</string>
+    <string name="dmd_file_not_exitsted">Файл не существует</string>
+    <string name="dmu_device_selector_title">Добавлено к</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">Медиа игрок</string>
+    <string name="dmp_device_item_desc">Медиа файлы</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">Возврат к предыдущему</string>
+    <string name="dmp_media_device">Все медиа-устройств</string>
+    <string name="dmp_key_direction">выбирать</string>
+    <string name="dmp_key_ok">Выбранные / воспроизведения</string>
+    <string name="dmp_key_download">Загрузка / выгрузка выбранного файла</string>
+    <string name="dmp_key_back">возвращать</string>
+    <string name="dmp_btn_transfer">Передача списка</string>
+    <string name="dmp_transfer_list_title">имя файла</string>
+    <string name="dmp_transfer_list_src">Источник расположение</string>
+    <string name="dmp_transfer_list_dest">назначение</string>
+    <string name="dmp_transfer_list_status">Состояние передачи</string>
+    <string name="dmp_transfer_dialog_title">имя файла: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">Размер файла: &#160;</string>
+    <string name="dmp_transfer_dialog_src">Источник расположение: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">назначение: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">воспроизведение</string>
+    <string name="dmp_transfer_dialog_btn_retry">Повторить</string>
+    <string name="dmp_transfer_dialog_btn_stop">Стоп</string>
+    <string name="dmp_transfer_dialog_btn_delete">удалять</string>
+    <string name="dmp_transfer_btn_delete">Удалить все</string>
+    <string name="dmp_transfer_btn_delete_succ">Удалить успешно пунктов</string>
+    <string name="dmp_transfer_status_waiting">ожидание</string>
+    <string name="dmp_transfer_status_succ">успех</string>
+    <string name="dmp_transfer_status_fail">провал</string>
+    <string name="dmp_request_fail">Медиа список запроса не удалось </string>
+    <string name="dmp_see_all_transfer">Посмотреть передачу списка</string>
+    <string name="dmp_download_file_msg">Независимо от того, чтобы скачать файл <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">Независимо от того, чтобы загрузить файлы <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_transfer_file_msg">Если для выгрузки / загрузки файлов <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">Была добавлена ​​к передаче списка</string>
+    <string name="dmp_download_add_item_fail">Добавить удалось</string>
+    <string name="dmp_media_item_null">Неверный ресурс</string>
+    <string name="dmp_local_media_center">Мои устройства</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(родной)</string>
+    <string name="dmp_invalid_device">Текущее устройство истек</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">Медиа-сервер</string>
+    <string name="dms_device_share">Родные обмена</string>
+    <string name="dms_open_share">Открыть общие</string>
+    <string name="dms_close_share">Закрыть общие</string>
+    <string name="dms_set_share">Добавить общие</string>
+    <string name="dms_set_share_mediastore">обмен родной медиа-библиотеку </string>
+    <string name="dms_set_share_folder">Установить общие папки</string>
+    <string name="dms_add_share_folder">Добавить общую папку</string>
+    <string name="dms_key_del_share">Удалить общую папку</string>
+    <string name="dms_key_enter_folder">Введите общую папку</string>
+    <string name="dms_key_set_folder">Установить общие папки</string>
+    <string name="dms_image">Мои картинки</string>
+    <string name="dms_audio">Моя музыка</string>
+    <string name="dms_video">Мое видео</string>
+    <string name="dms_device_storage">Родные устройств хранения данных</string>
+    <string name="dms_sdcard_storage">SD карты</string>
+    <string name="dms_flash_storage">Родной диск</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">Включено совместное использование</string>
+    <string name="dms_share_disabled">Совместное выкл</string>
+    <string name="dms_share_enable_msg">Совместное открытой ...</string>
+    <string name="dms_share_disable_msg">Поделиться с друзьями Закрыть ...</string>
+    <string name="dms_remove_mediastore">Вы уверены, чтобы удалить обмена медиа-библиотеку?</string>
+    <string name="dms_remove_directory">Обязательно удалите  <xliff:g id="dd">%s</xliff:g> общего доступа к папкам?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Настройки системы</string>
+    <string name="settings_name">Установить родную обмена медиа Имя</string>
+    <string name="settings_upload">Позволяет медиа-файлы будут загружены на машине</string>
+    <string name="settings_upload_allow">Разрешить загрузку</string>
+    <string name="settings_upload_reject">Запрет загрузки</string>
+    <string name="settings_auto_start">При запуске системы автоматического будет аппарат в качестве устройства воспроизведения</string>
+    <string name="settings_auto_yes">Автоматический запуск</string>
+    <string name="settings_auto_no">Не запускается автоматически</string>
+    <string name="settings_key_ok">Изменение опции</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">Уже есть первые фотографии</string>
+    <string name="plug_image_last_img">Уже последняя картина</string>
+    <string name="plug_image_slide">Начните играть</string>
+    <string name="plug_image_stop_slide">Хватит играть</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">"соединительный <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="plug_music_playback_failed">"К сожалению, плеер не поддерживает этот тип аудиофайла。"</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">Видео Загрузка ...</string>
+    <string name="plug_video_waiting">Пожалуйста, подождите</string>
+    <string name="plug_video_err_unknown">Извините, вы не можете играть это видео.</string>
+    <string name="plug_video_err_title">Извините, вы не можете играть это видео.</string>
+    <string name="plug_video_err_unsupport">К сожалению, не поддерживает это видео..</string>
+    <string name="plug_video_playmode_title">Выберите режим воспроизведения</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

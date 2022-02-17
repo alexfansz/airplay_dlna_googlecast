@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="WeightedLinearLayout">
+        <attr name="majorWeight" format="float"/>
+        <attr name="minorWeight" format="float"/>
+        <attr name="fixedWidth" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CountdownTextView">
+        <attr name="count" format="integer"/>
+    </declare-styleable>
+    <attr name="alertDialogStyle" format="reference"/>
+    <attr name="buttonStyle" format="reference"/>
+    <!-- Default style for DialogPreference. -->
+    <attr name="dialogPreferenceStyle" format="reference" />
+    <!-- Default style for EditTextPreference. -->
+    <attr name="editTextPreferenceStyle" format="reference" />
+    <!-- The set of attributes that describe a AlertDialog's theme. -->
+    <declare-styleable name="AlertDialog">
+        <attr name="fullDark" format="reference|color" />
+        <attr name="topDark" format="reference|color" />
+        <attr name="centerDark" format="reference|color" />
+        <attr name="bottomDark" format="reference|color" />
+        <attr name="fullBright" format="reference|color" />
+        <attr name="topBright" format="reference|color" />
+        <attr name="centerBright" format="reference|color" />
+        <attr name="bottomBright" format="reference|color" />
+        <attr name="bottomMedium" format="reference|color" />
+        <attr name="centerMedium" format="reference|color" />
+    </declare-styleable>
+    
+    <!-- Base attributes available to DialogPreference. -->
+    <declare-styleable name="DialogPreference">
+        <!-- The title in the dialog. -->
+        <attr name="dialogTitle" format="string" />
+        <!-- The message in the dialog. If a dialogLayout is provided and contains
+             a TextView with ID android:id/message, this message will be placed in there. -->
+        <attr name="dialogMessage" format="string" />
+        <!-- The icon for the dialog. -->
+        <attr name="dialogIcon" format="reference" />
+        <!-- The positive button text for the dialog. Set to @null to hide the positive button. -->
+        <attr name="positiveButtonText" format="string" />
+        <!-- The negative button text for the dialog. Set to @null to hide the negative button. -->
+        <attr name="negativeButtonText" format="string" />
+        <!-- A layout to be used as the content View for the dialog. By default, this shouldn't
+             be needed. If a custom DialogPreference is required, this should be set. For example,
+             the EditTextPreference uses a layout with an EditText as this attribute. -->
+        <attr name="dialogLayout" format="reference" />
+    </declare-styleable>
+</resources>

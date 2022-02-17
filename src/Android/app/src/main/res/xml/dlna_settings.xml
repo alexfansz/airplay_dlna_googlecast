@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mc="http://schemas.android.com/apk/">
+ 
+ 	<com.rockchip.mediacenter.plugins.widget.EditPreference 
+ 		android:key="SettingName"
+ 		android:title="@string/settings_name"
+ 		android:widgetLayout="@layout/preference_dialog"/>
+ 	<com.rockchip.mediacenter.plugins.widget.SwitchPreference
+ 		android:key="SettingMediaRenderer"
+ 		android:title="@string/settings_dmr"
+ 		android:defaultValue="true"
+ 		android:persistent="true"
+ 		android:widgetLayout="@layout/preference_switch"/>
+ 	<!-- 
+ 	<com.rockchip.mediacenter.plugins.widget.SwitchPreference
+ 		android:key="SettingAutoStart"
+ 		android:title="@string/settings_auto_start"
+ 		android:defaultValue="true"
+ 		android:widgetLayout="@layout/preference_switch"/>
+ 	 -->
+ 	<!-- <com.rockchip.mediacenter.plugins.widget.SwitchPreference
+ 		android:key="SettingPermission"
+ 		android:title="@string/settings_upload"
+ 		android:defaultValue="true"
+ 		android:widgetLayout="@layout/preference_switch"/>
+ 	<Preference
+ 		android:key="SettingUploadLocation"
+ 		android:title="@string/settings_upload_location"/> -->
+ 	<Preference
+ 		android:key="SettingVersion"
+ 		android:title="@string/settings_version"/>
+</PreferenceScreen>

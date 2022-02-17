@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="dms_ll_path"/>
+  <item type="id" name="message"/>
+  <item type="id" name="edit"/>
+  <item type="id" name="edittext_container"/>
+  <item type="id" name="switch_image"/>
+  <item type="id" name="button1"/>
+  <item type="id" name="button2"/>
+  <item type="id" name="button3"/>
+</resources>

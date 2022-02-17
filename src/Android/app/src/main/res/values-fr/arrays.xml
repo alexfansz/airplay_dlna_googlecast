@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 前的内容作为标识使用  不可删除 -->
+    <string-array name="media_types" translatable="false">
+    	<item>image/Mes Photos</item>
+    	<item>audio/Ma Musique</item>
+    	<item>video/Mes Vidéos</item>
+    </string-array>
+    <string-array name="permission_entries">
+        <item>Tjrs Authoriser</item>
+        <item>Tjrs Demander</item>
+        <item>Tjrs Rejeter</item>
+    </string-array>
+    
+    <!-- 播放模式 -->
+    <string-array name="play_mode">
+        <item>Une fois seulement</item>
+        <item>Dans l\'ordre</item>
+        <item>Répéter une fois</item>
+        <item>Répéter tout</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 前的内容作为标识使用  不可删除 -->
+    <string-array name="media_types" translatable="false">
+    	<item>image/Poze</item>
+    	<item>audio/Muzică</item>
+    	<item>video/Filme</item>
+    </string-array>
+   
+    <string-array name="permission_entries">
+        <item>Permite automat</item>
+        <item>Cere confirmare</item>
+        <item>>Respinge automat</item>
+    </string-array>
+    <string-array name="permission_entriesvalue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <!-- 播放模式 -->
+    <string-array name="play_mode">
+        <item>Unic</item>
+        <item>Secvenţial</item>
+        <item>Repetare: unică</item>
+        <item>Repetare: toate</item>
+    </string-array>
+    
+</resources>

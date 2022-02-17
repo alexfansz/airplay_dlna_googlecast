@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xindawn">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".RenderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:persistent="true">
+
+        <receiver android:name=".service.BootManager"
+            android:enabled="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ScreenCast.ScreenCastService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="net.basicgo.start.engine" />
+                <action android:name="net.basicgo.restart.engine" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="TD_APP_ID"
+            android:value="7F0D6361854462718E6EEB92BF280894" />
+        <meta-data
+            android:name="TD_CHANNEL_ID"
+            android:value="91.com" />
+
+        <service
+            android:name=".service.MediaRenderService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.xindawn.start.engine" />
+                <action android:name="com.xindawn.restart.engine" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".DLAN.DMR.DMRService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.xindawn.start.dmr" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".video.VideoActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".music.MusicActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".image.ImageActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".airgl.AirPlayerGLActivity"
+            android:screenOrientation="sensor"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+
+        <!-- Plugins Picture Player -->
+        <activity
+            android:name=".DLAN.plugins.pictureplay.PictureViewer"
+            android:configChanges="orientation|keyboard"
+            android:excludeFromRecents="true"
+            android:label="@string/plug_image_app_name">
+
+            <!--
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+				<data android:mimeType="image/*"/>
+			</intent-filter>
+            -->
+            <intent-filter>
+                <action android:name="com.rockchip.mediacenter.player.PictureViewer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity> <!-- Plugins Video Player -->
+        <activity
+            android:name=".DLAN.plugins.videoplay.VideoPlayer"
+            android:configChanges="orientation|keyboard|touchscreen"
+            android:excludeFromRecents="true"
+            android:label="@string/plug_video_app_name">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            -->
+            <intent-filter>
+                <action android:name="com.rockchip.mediacenter.player.VideoPlayer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity> <!-- Plugins Music Player -->
+        <activity
+            android:name=".DLAN.plugins.musicplay.MusicPlayer"
+            android:configChanges="orientation|keyboard"
+            android:excludeFromRecents="true"
+            android:label="@string/plug_music_app_name"
+            android:theme="@style/MainTheme.TransTheme">
+
+            <!--
+         <intent-filter>
+             <action android:name="android.intent.action.VIEW" />
+             <category android:name="android.intent.category.DEFAULT"/>
+             <data android:mimeType="audio/*"/>
+         </intent-filter>
+            -->
+            <intent-filter>
+                <action android:name="com.rockchip.mediacenter.player.MusicPlayer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+        </activity>
+</application>
+
+</manifest>

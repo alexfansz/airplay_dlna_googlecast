@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">مرکز آموزش</string>
+    <string name="dialog_waiting">در حال انتظار</string>
+    <string name="dialog_prompt">در حال انجام</string>
+    <string name="dialog_operate">اعمال</string>
+    <string name="dialog_ok">تایید</string>
+    <string name="dialog_cancel">لغو</string>
+    <string name="dialog_search_msg">دستگاه یافته نشد،دوباره سعی کنید</string>
+    <string name="toast_disconn_service">استفاده از سرویس میسر نشد</string>
+    <string name="dialog_searching_msg">در حال جستجوی دستگاه</string>
+    <string name="dialog_openning_msg">در حال بازکردن</string>
+    <string name="btn_refresh">بازسازی</string>
+    <string name="no_such_app">!برنامه ای برای باز کردن این فایل وجود ندارد</string>
+    <string name="dialog_wlan_fail">تنظیمات شبکه</string>
+    <string name="dialog_wlan_msg">باز شود؟ WLAN،دارد WLAN نیاز به باز کردن DLNA شروع</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">مرکز آموزش</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">...دستگاه مدیا در حال شناسایی است</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">انتخاب شده</string>
+    <string name="dmd_key_clear">حذف موارد منتقل شده</string>
+    <string name="dmd_clear_transfer_msg">آیا از حذف موارد منتقل شده اطمینان دارید؟</string>
+    <string name="dmd_clear_transfer_all">حذف تمامی موارد</string>
+    <string name="dmd_clear_transfer_succ">حذف،کامل شد</string>
+    <string name="dmd_file_not_exitsted">فایل موجود نیست</string>
+    <string name="dmu_device_selector_title">آپلود کردن در</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">مدیا پلیر</string>
+    <string name="dmp_device_item_desc">فایلها</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">...</string>
+    <string name="dmp_media_device">دستگاههای مدیا</string>
+    <string name="dmp_key_direction">انتخاب</string>
+    <string name="dmp_key_ok">انتخاب شده/پخش</string>
+    <string name="dmp_key_download">آپلود/دانلود فایل انتخابی</string>
+    <string name="dmp_key_back">بازگشت</string>
+    <string name="dmp_btn_transfer">جابجایی لیست</string>
+    <string name="dmp_transfer_list">جابجایی لیست</string>
+    <string name="dmp_transfer_list_title">عنوان</string>
+    <string name="dmp_transfer_list_src">موقعیت مبدا</string>
+    <string name="dmp_transfer_list_dest">موقعیت مقصد</string>
+    <string name="dmp_transfer_list_status">وضعیت</string>
+    <string name="dmp_transfer_dialog_title">:عنوان</string>
+    <string name="dmp_transfer_dialog_filesize">:اندازه فایل</string>
+    <string name="dmp_transfer_dialog_src">:موقعیت مبدا</string>
+    <string name="dmp_transfer_dialog_dest">:موقعیت مقصد</string>
+    <string name="dmp_transfer_dialog_btn_play">پخش</string>
+    <string name="dmp_transfer_dialog_btn_retry">تلاش مجدد</string>
+    <string name="dmp_transfer_dialog_btn_stop">توقف</string>
+    <string name="dmp_transfer_dialog_btn_delete">حذف</string>
+    <string name="dmp_transfer_btn_delete">حذف تمامی موارد</string>
+    <string name="dmp_transfer_btn_delete_succ">حذف موارد انجام شد</string>
+    <string name="dmp_transfer_status_waiting">...انتظار</string>
+    <string name="dmp_transfer_status_succ">کامل شده</string>
+    <string name="dmp_transfer_status_fail">ناموفق</string>
+    <string name="dmp_request_fail">خطای درخواست لیست مدیا </string>
+    <string name="dmp_see_all_transfer">مشاهده جابجایی</string>
+    <string name="dmp_transfer_file_msg">Whether to transfer the file <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_file_msg">Whether to download the file <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">Whether to upload the file <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">به لیست جابجایی افزوده شده است</string>
+    <string name="dmp_download_add_item_fail">امکان افزودن به لیست جابجایی وجود ندارد</string>
+    <string name="dmp_media_item_null">منابع نامعتبر</string>
+    <string name="dmp_local_media_center">دستگاه من</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(Local)</string>
+    <string name="dmp_invalid_device">دستگاه جاری منقضی شده است</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">مدیاسرور</string>
+    <string name="dms_device_share">اشتراک گذاری محلی</string>
+    <string name="dms_open_share">آغاز اشتراک</string>
+    <string name="dms_close_share">توقف اشتراک</string>
+    <string name="dms_set_share">افزودن اشتراک</string>
+    <string name="dms_set_share_mediastore">تنظیم مدیا استور محلی برای اشتراک</string>
+    <string name="dms_set_share_folder">افزودن یک دایرکتوری به اشتراک</string>
+    <string name="dms_add_share_folder">افزودن اشتراک</string>
+    <string name="dms_key_del_share">حذف دایرکتوری اشتراک</string>
+    <string name="dms_key_enter_folder">ورود به دایرکتوری انتخابی</string>
+    <string name="dms_key_set_folder">تنظیم دایرکتوری اشتراک</string>
+    <string name="dms_image">تصاویر من</string>
+    <string name="dms_audio">موزیک های من</string>
+    <string name="dms_video">فیلم های من</string>
+    <string name="dms_device_storage">دستگاههای ذخیره محلی</string>
+    <string name="dms_sdcard_storage">SD کارت</string>
+    <string name="dms_flash_storage">حافظه</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">اشتراک فعال شد</string>
+    <string name="dms_share_disabled">اشتراک غیر فعال شد</string>
+    <string name="dms_share_enable_msg">اشتراک در حال فعال شدن است</string>
+    <string name="dms_share_disable_msg">اشتراک در حال غیر فعال شدن است</string>
+    <string name="dms_remove_mediastore">آیا مدیا استور در اشتراک حذف شود؟</string>
+    <string name="dms_remove_directory">Determine to remove <xliff:g id="dd">%s</xliff:g> folder sharing?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_name">تنظیم نام اشتراک مدیای محلی</string>
+    <string name="settings_upload">آپلود فایل های مدیا در دستگاههای محلی مجاز است </string>
+    <string name="settings_upload_allow">اجازه آپلود</string>
+    <string name="settings_upload_reject">عدم قبول آپلود</string>
+    <string name="settings_auto_start">آغاز اتوماتیک به عنوان دستگاه بازپخش</string>
+    <string name="settings_auto_yes">اجرای اتوماتیک</string>
+    <string name="settings_auto_no">اجرای غیر اتوماتیک</string>
+    <string name="settings_key_ok">تغییر گزینه</string>
+    <string name="settings_upload_location">موقعیت آپلود فایل های مدیا</string>
+    <string name="settings_version">اطلاعات ورژن</string>
+    <string name="settings_dmr">افزودن دستگاه پخش بی سیم</string>
+    <string name="settings_dmr_opening">در حال باز شدن</string>
+    <string name="settings_dmr_opened">باز شده</string>
+    <string name="settings_dmr_closed">بسته</string>
+    <string name="settings_dmr_closing">در حال بستن</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">اولین تصویر</string>
+    <string name="plug_image_last_img">آخرین تصویر</string>
+    <string name="plug_image_slide">آغاز پخش</string>
+    <string name="plug_image_stop_slide">توقف پخش</string>
+    <string name="plug_image_app_name">مشاهده تصاویر</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">Connecting to <xliff:g id="HOST">%s</xliff:g></string>
+    <string name="plug_music_playback_failed">.فایل صوتی پشتیبانی نمی شود</string>
+    <string name="plug_music_app_name">موزیک پلیر</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">در حال بارگذاری</string>
+    <string name="plug_video_waiting">در حال انتظار</string>
+    <string name="plug_video_err_unknown">.این ویدیو پخش نمی شود</string>
+    <string name="plug_video_err_title">.قادر به پخش ویدیو نیست</string>
+    <string name="plug_video_err_unsupport">.این ویدیو برای استریم شدن در این دستگاه مناسب نیست</string>
+    <string name="plug_video_playmode_title">انتخاب نوع پخش</string>
+    <string name="plug_video_app_name">ویدیو پلیر</string>
+    <string name="plug_video_unsupport_seek">جستوی پشتیبانی نشده</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

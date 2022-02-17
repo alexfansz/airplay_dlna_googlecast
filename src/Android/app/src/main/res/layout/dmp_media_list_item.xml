@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" >
+	<ImageView 
+		android:id="@+id/dmp_img_media_item"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:scaleType="center"
+	    android:background="@drawable/dmp_media_item_bg"/>
+	<ImageView 
+		android:id="@+id/dmp_img_media_play"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/dmp_media_playing"
+	    android:layout_alignBottom="@id/dmp_img_media_item"
+	    android:layout_toRightOf="@id/dmp_img_media_item"/>
+	<com.rockchip.mediacenter.mediaplayer.ui.AlwaysMarqueeTextView
+	    android:id="@+id/dmp_tv_media_title"
+	    android:layout_width="@dimen/item_width"
+	    android:layout_height="wrap_content"
+	    android:textSize="@dimen/item_size"
+	    android:textColor="@color/item_color"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+	    android:gravity="center"
+	    android:marqueeRepeatLimit="marquee_forever"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@id/dmp_img_media_item"/>
+	<TextView
+		android:id="@+id/dmp_tv_media_desc"
+	    android:layout_width="@dimen/item_width" 
+	    android:layout_height="wrap_content"
+	    android:textSize="@dimen/item_desc_size"
+	    android:textColor="@color/item_desc_color"
+	    android:singleLine="true"
+	    android:gravity="center"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@id/dmp_tv_media_title"/>
+</RelativeLayout>

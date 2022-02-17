@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dip"
+    android:paddingBottom="15dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:gravity="center_horizontal">
+	
+    <com.android.internal.widget.DialogTitle 
+		android:id="@+id/dms_share_choice_title"
+      	style="?android:attr/textAppearanceLarge"
+      	android:singleLine="true"
+    	android:ellipsize="end"
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:background="@drawable/sys_dialog_top"
+      	android:text="@string/dms_add_share_folder"
+      	android:paddingLeft="30dip"
+      	android:paddingRight="10dip"
+      	android:paddingBottom="10dip"
+      	android:minHeight="54dip"/>
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"
+		android:orientation="vertical"
+      	android:background="@drawable/sys_dialog_center">
+      	<!-- 显示文件路径 -->
+	    <HorizontalScrollView 
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/dmp_path"
+		    	android:gravity="center_vertical"
+		    	android:layout_gravity="center_vertical"
+		    	android:scrollbars="none">
+			<LinearLayout
+			    android:id="@id/dms_ll_path"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content">
+		    </LinearLayout>
+		</HorizontalScrollView>
+    
+    	<LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="0dip"
+	    	android:layout_weight="1">
+	    	<com.rockchip.mediacenter.plugins.widget.MediaGridView 
+	    		android:id="@+id/dms_gv_folder_list"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:listSelector="@android:color/transparent"
+		        android:scrollbars="vertical"
+		        android:drawSelectorOnTop="false"
+		        android:verticalSpacing="@dimen/item_spacing"
+		        android:horizontalSpacing="@dimen/item_spacing"
+		        android:numColumns="auto_fit"
+		        android:columnWidth="@dimen/item_width"
+		        android:cacheColorHint="#00000000"
+		        android:padding="@dimen/item_padding"
+		        android:fadeScrollbars="false"/>
+	    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dip"
+        android:orientation="horizontal"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+    	android:minHeight="44dip"
+        android:gravity="center_horizontal"
+      	android:background="@drawable/sys_dialog_bottom">
+      	<!-- 
+        android:paddingTop="4dip"
+        android:paddingBottom="20dip"
+        <TextView 
+    		android:drawableLeft="@drawable/dmp_key_direction"
+    		android:text="@string/dmp_key_direction"
+    		style="@style/KeyPrompt"/>
+    	<TextView 
+    		android:drawableLeft="@drawable/dmp_key_ok"
+    		android:text="@string/dms_key_enter_folder"
+    		style="@style/KeyPrompt"/>
+    	<TextView 
+    		android:drawableLeft="@drawable/dmp_key_operate"
+    		android:text="@string/dms_key_set_folder"
+    		style="@style/KeyPrompt"/>
+    	<TextView 
+    		android:drawableLeft="@drawable/dmp_key_back"
+    		android:text="@string/dmp_key_back"
+    		style="@style/KeyPrompt"/> -->
+    </LinearLayout>
+</LinearLayout>

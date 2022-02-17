@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">eHomeMediaCenter</string>
+    <string name="dialog_waiting">請稍等</string>
+    <string name="dialog_prompt">提示</string>
+    <string name="dialog_operate">操作</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_search_msg">未搜索到設備，是否重試?</string>
+    <string name="toast_disconn_service">未連接上D L N A服務</string>
+    <string name="dialog_searching_msg">正在搜尋設備…</string>
+    <string name="dialog_openning_msg">正在打開…</string>
+    <string name="btn_refresh">刷新</string>
+    <string name="no_such_app">沒有應用程序可以打開這個文件!</string>
+    <string name="dialog_wlan_fail">網絡設置</string>
+    <string name="dialog_wlan_msg">啟動DLNA需要打開WLAN功能, 確定打開?</string>
+
+    <!-- Home -->
+    <string name="main_logo_name">eHomeMediaCenter</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">媒體設備正在初始化,請稍後...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">操作當前項</string>
+    <string name="dmd_key_clear">清楚傳輸項</string>
+    <string name="dmd_clear_transfer_msg">確認要清除傳輸項嗎?</string>
+    <string name="dmd_clear_transfer_all">清除全部</string>
+    <string name="dmd_clear_transfer_succ">清除完成項</string>
+    <string name="dmd_file_not_exitsted">文件不存在</string>
+    <string name="dmu_device_selector_title">上傳至</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">媒體播放器</string>
+    <string name="dmp_device_item_desc">個媒體文件</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">返回上一級</string>
+    <string name="dmp_media_device">所有媒體設備</string>
+    <string name="dmp_key_direction">選擇</string>
+    <string name="dmp_key_ok">選定/播放</string>
+    <string name="dmp_key_download">上傳/下載選中文件</string>
+    <string name="dmp_key_back">返回</string>
+    <string name="dmp_btn_transfer">傳輸列表</string>
+    <string name="dmp_transfer_list">傳輸列表</string>
+    <string name="dmp_transfer_list_title">文件名</string>
+    <string name="dmp_transfer_list_src">來源位置</string>
+    <string name="dmp_transfer_list_dest">目的位置</string>
+    <string name="dmp_transfer_list_status">傳輸狀態</string>
+    <string name="dmp_transfer_dialog_title">文件名: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">文件大小: &#160;</string>
+    <string name="dmp_transfer_dialog_src">來源位置: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">目的位置: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">播放</string>
+    <string name="dmp_transfer_dialog_btn_retry">重試</string>
+    <string name="dmp_transfer_dialog_btn_stop">停止</string>
+    <string name="dmp_transfer_dialog_btn_delete">清除</string>
+    <string name="dmp_transfer_btn_delete">全部清除</string>
+    <string name="dmp_transfer_btn_delete_succ">清除成功項</string>
+    <string name="dmp_transfer_status_waiting">等待</string>
+    <string name="dmp_transfer_status_succ">成功</string>
+    <string name="dmp_transfer_status_fail">失敗</string>
+    <string name="dmp_request_fail">媒體列表請求失敗</string>
+    <string name="dmp_see_all_transfer">查看傳輸列表</string>
+    <string name="dmp_download_file_msg">是否下載文件 <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">是否上傳文件 <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_transfer_file_msg">是否上傳/下載文件 <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">已添加到傳輸列表</string>
+    <string name="dmp_download_add_item_fail">添加失敗</string>
+    <string name="dmp_media_item_null">無效資源</string>
+    <string name="dmp_local_media_center">我的設備</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(本機)</string>
+    <string name="dmp_invalid_device">當前設備已失效</string>
+    
+    <!-- Digital Media Server -->
+    <string name="dms_title">媒體服務器</string>
+    <string name="dms_device_share">本機共享</string>
+    <string name="dms_open_share">開啟共享</string>
+    <string name="dms_close_share">關閉共享</string>
+    <string name="dms_set_share">添加共享</string>
+    <string name="dms_set_share_mediastore">將本機媒體庫設為共享</string>
+    <string name="dms_set_share_folder">自定義文件夾共享</string>
+    <string name="dms_add_share_folder">添加共享目錄</string>
+    <string name="dms_key_del_share">刪除共享目錄</string>
+    <string name="dms_key_enter_folder">進入選定目錄</string>
+    <string name="dms_key_set_folder">設為共享目錄</string>
+    <string name="dms_image">我的圖片</string>
+    <string name="dms_audio">我的音樂</string>
+    <string name="dms_video">我的視頻</string>
+    <string name="dms_device_storage">本機存儲設備</string>
+    <string name="dms_sdcard_storage">SD Card</string>
+    <string name="dms_flash_storage">本地磁盤</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">共享已啟用</string>
+    <string name="dms_share_disabled">共享已關閉</string>
+    <string name="dms_share_enable_msg">共享開啟中…</string>
+    <string name="dms_share_disable_msg">共享關閉中…</string>
+    <string name="dms_remove_mediastore">確定移除媒體庫共享嗎?</string>
+    <string name="dms_remove_directory">確定移除  <xliff:g id="dd">%s</xliff:g> 文件共享嗎?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">系統設置</string>
+    <string name="settings_name">設置本機媒體共享名稱</string>
+    <string name="settings_upload">允許將媒體文件上傳至本機</string>
+    <string name="settings_upload_allow">允許上傳</string>
+    <string name="settings_upload_reject">禁止上傳</string>
+    <string name="settings_auto_start">隨系統啟動自動將本機作為播放設備</string>
+    <string name="settings_auto_yes">自動運行</string>
+    <string name="settings_auto_no">不自動運行</string>
+    <string name="settings_key_ok">改變選項</string>
+    <string name="settings_upload_location">遠程文件上傳位置</string>
+    <string name="settings_version">版本信息</string>
+    <string name="settings_dmr">本機作為遠程媒體播放設備</string>
+    <string name="settings_dmr_opening">正在開啟…</string>
+    <string name="settings_dmr_opened">已開啟</string>
+    <string name="settings_dmr_closed">已關閉</string>
+    <string name="settings_dmr_closing">正在關閉…</string>
+    <string name="settings_airplaymirror_fullscreen">屏幕镜像投屏强制满屏</string>
+    <string name="settings_airplay_forcemirroring">Airplay 强制镜像投屏</string>
+
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">已經是第一張圖片</string>
+    <string name="plug_image_last_img">已經是最後一張圖片</string>
+    <string name="plug_image_slide">開始播放</string>
+    <string name="plug_image_stop_slide">停止播放</string>
+    <string name="plug_image_app_name">圖片查看器</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">"正在連接 <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="plug_music_playback_failed">"抱歉，播放器不支持此類型音頻文件。"</string>
+    <string name="plug_music_app_name">音樂播放器</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">視頻加載中…</string>
+    <string name="plug_video_waiting">請稍後</string>
+    <string name="plug_video_err_unknown">對不起, 不能播放此視頻.</string>
+    <string name="plug_video_err_title">對不起, 不能播放此視頻.</string>
+    <string name="plug_video_err_unsupport">對不起, 不支持此視頻.</string>
+    <string name="plug_video_playmode_title">選擇播放模式</string>
+    <string name="plug_video_app_name">視頻播放器</string>
+    <string name="plug_video_unsupport_seek">不支持跳轉</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

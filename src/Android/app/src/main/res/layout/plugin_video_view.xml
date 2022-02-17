@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mc="http://schemas.android.com/apk/"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:background="@android:color/black"
+    >
+	<com.xindawn.DLAN.plugins.videoplay.VideoView android:id="@+id/videoview" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:background="@android:color/black"/>
+	<!-- 
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@android:color/black"/>
+	 -->
+	<LinearLayout android:id="@+id/progress_indicator"
+		android:visibility="gone"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<FrameLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center">
+			<ProgressBar
+				style="?android:attr/progressBarStyleLarge" android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<TextView
+				android:id="@+id/progress_text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"/>
+		</FrameLayout>
+		<TextView android:paddingTop="5dip" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:text="@string/plug_video_loading" android:textSize="14sp"
+			android:textColor="#ffffffff" />
+	</LinearLayout>
+	<com.xindawn.DLAN.plugins.videoplay.CountdownTextView
+		android:id="@+id/exit_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:textSize="90sp"
+		android:textColor="#ddffffff"/>
+
+	<LinearLayout
+		android:id="@+id/layout_controller"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal|bottom"
+		android:orientation="vertical"
+		android:visibility="invisible">
+
+		<include layout="@layout/plugin_video_controller" />
+	</LinearLayout>
+</FrameLayout>

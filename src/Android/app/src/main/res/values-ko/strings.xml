@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">홈 미디어 센터</string>
+    <string name="dialog_waiting">기다려주세요</string>
+    <string name="dialog_prompt">연결실패</string>
+    <string name="dialog_operate">운영</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_search_msg">장치연결상태 확인 바랍니다?</string>
+    <string name="toast_disconn_service">에 연결되지 않음 D L N A</string>
+    <string name="dialog_searching_msg">장치를 검색…</string>
+    <string name="dialog_openning_msg">열기 ...</string>
+    <string name="btn_refresh">새로고침</string>
+    <string name="no_such_app">응용 프로그램이이 파일을 열 수 없습니다!</string>
+    <string name="dialog_wlan_fail">연결실패</string>
+    <string name="dialog_wlan_msg">미디어 서버는 인터넷 연결후 실행해야 합니다. 연결상태 확인 바랍니다.</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">홈 미디어 센터</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">미디어 장치가 초기화되고, 잠시 기다려주십시오 ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">현재 항목 운영</string>
+    <string name="dmd_key_clear">삭제 전송 항목</string>
+    <string name="dmd_clear_transfer_msg">당신이 전송 항목을 삭제하려면 확인하려면.?</string>
+    <string name="dmd_clear_transfer_all">모두 지우기</string>
+    <string name="dmd_clear_transfer_succ">지우기 완료된 항목</string>
+    <string name="dmd_file_not_exitsted">파일이 존재하지 않습니다</string>
+    <string name="dmu_device_selector_title">에 업로드</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">미디어 플레이어</string>
+    <string name="dmp_device_item_desc">미디어 파일</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">이전으로 돌아 가기</string>
+    <string name="dmp_media_device">모든 미디어 장치</string>
+    <string name="dmp_key_direction">선택</string>
+    <string name="dmp_key_ok">선택한 / 재생</string>
+    <string name="dmp_key_download">선택한 파일을 업로드 / 다운로드</string>
+    <string name="dmp_key_back">반환</string>
+    <string name="dmp_btn_transfer">전송 목록</string>
+    <string name="dmp_transfer_list_title">파일 이름</string>
+    <string name="dmp_transfer_list_src">소스 위치</string>
+    <string name="dmp_transfer_list_dest">목적지</string>
+    <string name="dmp_transfer_list_status">전송 상태</string>
+    <string name="dmp_transfer_dialog_title">파일 이름: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">파일 크기: &#160;</string>
+    <string name="dmp_transfer_dialog_src">소스 위치: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">목적지: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">재생</string>
+    <string name="dmp_transfer_dialog_btn_retry">재시도</string>
+    <string name="dmp_transfer_dialog_btn_stop">정지</string>
+    <string name="dmp_transfer_dialog_btn_delete">삭제</string>
+    <string name="dmp_transfer_btn_delete">모두 삭제</string>
+    <string name="dmp_transfer_btn_delete_succ">성공적 항목을 삭제</string>
+    <string name="dmp_transfer_status_waiting">기다리는</string>
+    <string name="dmp_transfer_status_succ">성공</string>
+    <string name="dmp_transfer_status_fail">실패</string>
+    <string name="dmp_request_fail">미디어 목록 요청이 실패했습니다 </string>
+    <string name="dmp_see_all_transfer">전송 목록보기</string>
+    <string name="dmp_download_file_msg">파일을 다운로드할지 여부 <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">파일을 업로드 여부 <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_transfer_file_msg">파일을 업로드 / 다운로드 할 수 있는지 여부 <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">전송 목록에 추가되었습니다</string>
+    <string name="dmp_download_add_item_fail">실패 추가</string>
+    <string name="dmp_media_item_null">잘못된 리소스</string>
+    <string name="dmp_local_media_center">내 장치</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(원주민)</string>
+    <string name="dmp_invalid_device">현재 장치가 실효</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">미디어 서버</string>
+    <string name="dms_device_share">기본 공유</string>
+    <string name="dms_open_share">공유 열기</string>
+    <string name="dms_close_share">공유 닫기</string>
+    <string name="dms_set_share">공유를 추가</string>
+    <string name="dms_set_share_mediastore">기본 미디어 라이브러리를 공유 </string>
+    <string name="dms_set_share_folder">공유 폴더를 설정</string>
+    <string name="dms_add_share_folder">공유 폴더 추가</string>
+    <string name="dms_key_del_share">공유 폴더를 삭제</string>
+    <string name="dms_key_enter_folder">공유 폴더를 입력합니다</string>
+    <string name="dms_key_set_folder">공유 폴더를 설정</string>
+    <string name="dms_image">내 사진</string>
+    <string name="dms_audio">내 음악</string>
+    <string name="dms_video">내 동영상</string>
+    <string name="dms_device_storage">기본 저장 장치</string>
+    <string name="dms_sdcard_storage">SD 카드</string>
+    <string name="dms_flash_storage">기본 디스크</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">공유를 사용할 수 있습니다</string>
+    <string name="dms_share_disabled">오프 공유</string>
+    <string name="dms_share_enable_msg">개방 공유 ...</string>
+    <string name="dms_share_disable_msg">공유 닫기 ...</string>
+    <string name="dms_remove_mediastore">당신은 미디어 라이브러리 공유를 제거 하시겠습니까?</string>
+    <string name="dms_remove_directory">제거해야합니다  <xliff:g id="dd">%s</xliff:g> 폴더 공유?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">시스템 설정</string>
+    <string name="settings_name">기본 미디어 공유 이름을 설정</string>
+    <string name="settings_upload">미디어 파일을 컴퓨터에 업로드 할 수 있습니다</string>
+    <string name="settings_upload_allow">업로드를 허용</string>
+    <string name="settings_upload_reject">업로드를 금지</string>
+    <string name="settings_auto_start">시스템 시작 시 자동으로 재생 장비와 연결</string>
+    <string name="settings_auto_yes">자동으로 실행</string>
+    <string name="settings_auto_no">자동으로 실행되지 않습니다</string>
+    <string name="settings_key_ok">옵션을 변경</string>
+    <string name="settings_upload_location">원격 미디어 파일 업로드 위치</string>
+    <string name="settings_version">버전 정보</string>
+    <string name="settings_dmr">원격 미디어 재생 장치로</string>
+    <string name="settings_dmr_opening">열기…</string>
+    <string name="settings_dmr_opened">오픈</string>
+    <string name="settings_dmr_closed">닫은</string>
+    <string name="settings_dmr_closing">폐쇄…</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">이미 첫 번째 사진은</string>
+    <string name="plug_image_last_img">이미 지난 사진</string>
+    <string name="plug_image_slide">재생 시작</string>
+    <string name="plug_image_stop_slide">재생 중지</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">"연결 <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="plug_music_playback_failed">"죄송합니다, 플레이어는 오디오 파일 형식을 지원하지 않습니다。"</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">동영상 로딩 ...</string>
+    <string name="plug_video_waiting">기다려주세요</string>
+    <string name="plug_video_err_unknown">죄송합니다,이 동영상을 재생 할 수 없습니다.</string>
+    <string name="plug_video_err_title">죄송합니다,이 동영상을 재생 할 수 없습니다.</string>
+    <string name="plug_video_err_unsupport">죄송합니다, 동영상을 지원하지 않습니다..</string>
+    <string name="plug_video_playmode_title">재생 모드를 선택합니다</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

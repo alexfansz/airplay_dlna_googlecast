@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- 修改系统主题 -->
+	<style name="MainTheme" parent="@android:style/Theme" mce_bogus="1">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+		<item name="android:alertDialogStyle">@style/AlertDialog</item>
+		<item name="android:buttonStyle">@style/SysButton</item>
+		<item name="android:radioButtonStyle">@style/RadioButton</item>
+		<item name="android:textColorHint">@color/hint_foreground_light</item>
+		<item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+       	<item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+    </style>
+    <style name="AlertDialog">
+        <item name="android:fullDark">@drawable/sys_dialog_center</item>
+        <item name="android:topDark">@drawable/sys_dialog_top</item>
+        <item name="android:centerDark">@drawable/sys_dialog_center</item>
+        <item name="android:bottomDark">@drawable/sys_dialog_bottom</item>
+        <item name="android:fullBright">@drawable/sys_dialog_center</item>
+        <item name="android:topBright">@drawable/sys_dialog_top</item>
+        <item name="android:centerBright">@drawable/sys_dialog_center</item>
+        <item name="android:bottomBright">@drawable/sys_dialog_bottom</item>
+        <item name="android:bottomMedium">@drawable/sys_dialog_bottom</item>
+        <item name="android:centerMedium">@drawable/sys_dialog_center</item>
+    </style>
+    
+    <!-- 对话框主题 -->
+    <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+    <style name="DialogAlert" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+	 	<item name="android:alertDialogStyle">@style/AlertDialog</item>
+	 	<item name="android:buttonStyle">@style/SysButton</item>
+	 	<item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+    	<item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+       	<item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+    </style>
+    
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/sys_btn_radio</item>
+    </style>
+    
+    <!-- TextAppearance -->
+    <style name="TextAppearance" parent="@android:style/TextAppearance"/>
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    
+    <!-- 透明主题 -->
+	<style name="MainTheme.TransTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    
+    
+    
+    <!-- 系统设置模块主题 -->
+    <style name="MainTheme.Settings">
+    	<item name="android:listPreferredItemHeight">100dip</item>
+		<item name="android:textAppearanceLarge">@style/TextAppearance.SettingsLarge</item>
+       	<item name="android:textAppearanceMedium">@style/TextAppearance.SettingsMedium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.SettingsSmall</item>
+    	<!-- Preference -->
+		<item name="dialogPreferenceStyle">@style/DialogPreference</item>
+		<item name="editTextPreferenceStyle">@style/DialogPreference.EditTextPreference</item>
+    </style>
+    <style name="TextAppearance.SettingsLarge">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="TextAppearance.SettingsMedium">
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="TextAppearance.SettingsSmall">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    
+    <!-- Preference -->
+    <style name="DialogPreference" parent="@*android:style/Preference.DialogPreference">
+    	<item name="positiveButtonText">@string/dialog_ok</item>
+        <item name="negativeButtonText">@string/dialog_cancel</item>
+        <item name="android:widgetLayout">@layout/preference_dialog</item>
+    </style>
+    <style name="DialogPreference.EditTextPreference">
+        <item name="dialogLayout">@layout/preference_dialog_edittext</item>
+    </style>
+    
+</resources>

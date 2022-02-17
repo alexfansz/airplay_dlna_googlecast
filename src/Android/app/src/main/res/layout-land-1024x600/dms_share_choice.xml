@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rockchip.mediacenter.plugins.widget.WeightedLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_container"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="1dip"
+    android:paddingBottom="3dip"
+    android:paddingLeft="3dip"
+    android:paddingRight="1dip"
+    android:gravity="center_horizontal">
+	
+    <com.android.internal.widget.DialogTitle 
+		android:id="@+id/dms_share_choice_title"
+      	style="?android:attr/textAppearanceLarge"
+      	android:singleLine="true"
+    	android:ellipsize="end"
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:background="@drawable/sys_dialog_top"
+      	android:text="@string/dms_set_share"
+      	android:paddingLeft="30dip"
+      	android:paddingRight="10dip"
+      	android:paddingBottom="10dip"
+      	android:minHeight="54dip"/>
+      	
+	<ListView
+	    android:id="@+id/dms_share_choice_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:minHeight="250dip"
+	    android:cacheColorHint="#00000000"
+	    android:divider="@null"
+	    android:paddingTop="30dip"
+		android:paddingLeft="20dip"
+		android:paddingRight="20dip"
+		android:drawSelectorOnTop="false"
+		android:listSelector="@android:color/transparent"
+      	android:background="@drawable/sys_dialog_center"
+      	android:nextFocusDown="@id/button1"/>
+      	<!-- 
+		android:listSelector="@drawable/sys_dialog_item_bg" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dip"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:paddingBottom="20dip"
+    	android:minHeight="54dip"
+        android:gravity="center_horizontal"
+      	android:background="@drawable/sys_dialog_bottom">
+        <Button android:id="@id/button1"
+        	android:layout_marginRight="@dimen/head_btn_margin"
+        	android:text="@string/dialog_ok"
+        	style="@style/SysButton.Dialog"
+        	android:nextFocusDown="@id/button2"/>
+        <Button android:id="@id/button2"
+        	android:text="@string/dialog_cancel"
+        	style="@style/SysButton.Dialog"
+        	android:nextFocusDown="@id/dms_share_choice_listview"/>
+    </LinearLayout>
+</com.rockchip.mediacenter.plugins.widget.WeightedLinearLayout>

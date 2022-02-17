@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_left">19dip</dimen>
+    <dimen name="padding_right">19dip</dimen>
+    <dimen name="head_height">120dip</dimen>
+    <dimen name="head_padding_left">5dip</dimen>
+    <dimen name="head_title_size">48sp</dimen>
+    <dimen name="head_btn_margin">15dip</dimen>
+    <dimen name="head_btn_size">27sp</dimen>
+    <dimen name="head_btn_pleft">40dip</dimen>
+    <dimen name="content_bg_ptop">2dip</dimen>
+    <dimen name="item_size">23sp</dimen>
+    <dimen name="item_width">190dip</dimen>
+    <dimen name="item_spacing">10dip</dimen>
+    <dimen name="item_padding">19dip</dimen>
+    <dimen name="item_desc_size">18sp</dimen>
+    <dimen name="main_title_size">43sp</dimen>
+	<dimen name="toast_y_offset">30dip</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 翻译请忽略‘/’前的字符 -->
+	<string-array name="media_types" translatable="false">
+    	<item>image/我的图片</item>
+    	<item>audio/我的音乐</item>
+    	<item>video/我的视频</item>
+    </string-array>
+    <string-array name="permission_entries">
+        <item>总是允许</item>
+        <item>总是询问</item>
+        <item>总是拒绝</item>
+    </string-array>
+    
+    <string-array name="play_mode">
+        <item>单曲播放</item>
+        <item>顺序播放</item>
+        <item>单曲循环</item>
+        <item>全部曲目循环播放</item>
+    </string-array>
+</resources>

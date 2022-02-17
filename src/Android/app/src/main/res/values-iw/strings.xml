@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">דף ראשי מדיה מרכז</string>
+    <string name="dialog_waiting">חכה בבקשה</string>
+    <string name="dialog_prompt">בקשה</string>
+    <string name="dialog_operate">לפעול</string>
+    <string name="dialog_ok">אוקיי</string>
+    <string name="dialog_cancel">ביטול</string>
+    <string name="dialog_search_msg">לא לחפש את ההתקן, אם הניסיון החוזר?</string>
+    <string name="toast_disconn_service">לא מחובר ב- D L N A</string>
+    <string name="dialog_searching_msg">חיפוש התקן…</string>
+    <string name="dialog_openning_msg">פתיחה ...</string>
+    <string name="btn_refresh">רענון</string>
+    <string name="no_such_app">אין אפשרות לפתוח קובץ זה!</string>
+    <string name="dialog_wlan_fail">בקשה</string>
+    <string name="dialog_wlan_msg">התחל DLNA צורך לפתוח WLAN, אישור לפתיחת?</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">דף ראשי מדיה מרכז</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">אתחול התקן המדיה, אנא המתן ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">הפעלה הפריט הנוכחי</string>
+    <string name="dmd_key_clear">נקה להעביר פריטים</string>
+    <string name="dmd_clear_transfer_msg">כדי לאשר כי ברצונך לנקות את הפריטים העברה.?</string>
+    <string name="dmd_clear_transfer_all">נקה הכל</string>
+    <string name="dmd_clear_transfer_succ">נקה פריטים שהושלמו</string>
+    <string name="dmd_file_not_exitsted">הקובץ אינו קיים</string>
+    <string name="dmu_device_selector_title">העלאת</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">נגן מדיה</string>
+    <string name="dmp_device_item_desc">קבצי מדיה</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">לחזור הקודם</string>
+    <string name="dmp_media_device">כל התקני מדיה</string>
+    <string name="dmp_key_direction">בחר</string>
+    <string name="dmp_key_ok">נבחר / הפעלה</string>
+    <string name="dmp_key_download">העלאת / הורדת הקובץ הנבחר</string>
+    <string name="dmp_key_back">להחזיר</string>
+    <string name="dmp_btn_transfer">העברת רשימת</string>
+    <string name="dmp_transfer_list_title">שם קובץ</string>
+    <string name="dmp_transfer_list_src">מיקום מקור</string>
+    <string name="dmp_transfer_list_dest">היעד</string>
+    <string name="dmp_transfer_list_status">מצב העברה</string>
+    <string name="dmp_transfer_dialog_title">שם קובץ: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">גודל קובץ: &#160;</string>
+    <string name="dmp_transfer_dialog_src">מיקום מקור: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">היעד: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">הפעלה</string>
+    <string name="dmp_transfer_dialog_btn_retry">נסה שנית</string>
+    <string name="dmp_transfer_dialog_btn_stop">להפסיק</string>
+    <string name="dmp_transfer_dialog_btn_delete">מחק</string>
+    <string name="dmp_transfer_btn_delete">מחק את כל</string>
+    <string name="dmp_transfer_btn_delete_succ">מחק בהצלחה פריטים</string>
+    <string name="dmp_transfer_status_waiting">המתנה</string>
+    <string name="dmp_transfer_status_succ">הצלחה</string>
+    <string name="dmp_transfer_status_fail">להיכשל</string>
+    <string name="dmp_request_fail">בקשת רשימת מדיה נכשלה </string>
+    <string name="dmp_see_all_transfer">להציג את רשימת העברה</string>
+    <string name="dmp_download_file_msg">אם להוריד את הקובץ <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">אם יש להעלות את הקבצים <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_transfer_file_msg">אם העלאת / הורדת הקבצים <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">נוספה לרשימת ההעברה</string>
+    <string name="dmp_download_add_item_fail">ההוספה נכשלה</string>
+    <string name="dmp_media_item_null">לא חוקי של משאב</string>
+    <string name="dmp_local_media_center">המכשיר שלי</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(מקורי)</string>
+    <string name="dmp_invalid_device">שוקעת ונעלמת של התקן נוכחי</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">שרת מדיה</string>
+    <string name="dms_device_share">מקורי שיתוף</string>
+    <string name="dms_open_share">פתח שיתוף</string>
+    <string name="dms_close_share">סגור את שיתוף</string>
+    <string name="dms_set_share">להוסיף משתף</string>
+    <string name="dms_set_share_mediastore">שיתוף ספריית מדיה מקורית </string>
+    <string name="dms_set_share_folder">הגדרת שיתוף תיקיה</string>
+    <string name="dms_add_share_folder">הוספת תיקיית שיתוף</string>
+    <string name="dms_key_del_share">מחיקת תיקיית שיתוף</string>
+    <string name="dms_key_enter_folder">הזן את התיקיה של המיקום המשותף</string>
+    <string name="dms_key_set_folder">הגדרת שיתוף תיקיה</string>
+    <string name="dms_image">התמונות שלי</string>
+    <string name="dms_audio">המוסיקה שלי</string>
+    <string name="dms_video">הווידאו שלי</string>
+    <string name="dms_device_storage">התקני אחסון מקורי</string>
+    <string name="dms_sdcard_storage">כרטיס SD</string>
+    <string name="dms_flash_storage">דיסק מקורי</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">הפעלת שיתוף</string>
+    <string name="dms_share_disabled">שיתוף ביטול</string>
+    <string name="dms_share_enable_msg">משותפים פתוחים ...</string>
+    <string name="dms_share_disable_msg">לשתף סגור ...</string>
+    <string name="dms_remove_mediastore">אתה בטוח להסיר את ספריית המדיה משתף?</string>
+    <string name="dms_remove_directory">הקפד להסיר  <xliff:g id="dd">%s</xliff:g> שיתוף תיקיות?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">הגדרות מערכת</string>
+    <string name="settings_name">בחר את המדיה המקורית שיתוף שם</string>
+    <string name="settings_upload">מאפשר קבצי מדיה להעלאה למחשב</string>
+    <string name="settings_upload_allow">העלאת</string>
+    <string name="settings_upload_reject">לאסור העלאה</string>
+    <string name="settings_auto_start">עם הפעלת המערכת האוטומטית יהיה המחשב כמו ציוד השמעה</string>
+    <string name="settings_auto_yes">להפעיל באופן אוטומטי</string>
+    <string name="settings_auto_no">לא פועל באופן אוטומטי</string>
+    <string name="settings_key_ok">האפשרות שנה</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">הוא כבר התמונות הראשון</string>
+    <string name="plug_image_last_img">התמונה האחרונה כבר</string>
+    <string name="plug_image_slide">להתחיל לשחק</string>
+    <string name="plug_image_stop_slide">הפסקת הפעלה</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">"התחברות <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="plug_music_playback_failed">"מצטערים, הנגן אינו תומך בסוג זה של קובץ שמע。"</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">טעינת וידאו ...</string>
+    <string name="plug_video_waiting">חכה בבקשה</string>
+    <string name="plug_video_err_unknown">סליחה, אתה לא יכול לשחק וידאו זה.</string>
+    <string name="plug_video_err_title">סליחה, אתה לא יכול לשחק וידאו זה.</string>
+    <string name="plug_video_err_unsupport">מצטערים, לא תומך וידאו זה..</string>
+    <string name="plug_video_playmode_title">בחר את מצב המשחק</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

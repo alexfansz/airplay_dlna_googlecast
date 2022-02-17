@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Retrieved via Resources.getColor() and friends. -->
+    <color name="red">#f00</color>
+    <color name="green">#0f0</color>
+    <color name="blue">#00f</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ddd</color>
+    <color name="white">#ffffff</color>
+    <color name="visualize_fx">#44b121</color>
+
+    <color name="lyrics">#a3bfe5</color>
+    <color name="lyrics_hl">#7aba78</color>
+
+    <color name="btn_color">#FF7DBAFA</color>
+    <color name="btn_pressed_color">#FF000000</color>
+    <color name="path_color">#DDFFFFFF</color>
+    <color name="item_color">#FFFFFFFF</color>
+    <color name="item_selected_color">#FF56CB3C</color>
+    <color name="item_desc_color">#FF1182C5</color>
+    
+    <color name="plug_vp_btn_color">#02000011</color>
+    
+    <color name="primary_text_light">#FFFFFFFF</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="color_dark_grey">#808080</color>
+    <color name="color_green">#76CB13</color>
+</resources>

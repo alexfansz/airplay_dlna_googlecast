@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">eHomeMediaCenter</string>
+    <string name="dialog_waiting">Bitte warten</string>
+    <string name="dialog_prompt">Achtung</string>
+    <string name="dialog_operate">ausführen</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="dialog_search_msg">Gerät wurde nicht gefunden, erneut versuchen?</string>
+    <string name="toast_disconn_service">Nicht mit DLNA verbunden</string>
+    <string name="dialog_searching_msg">Suche Gerät...</string>
+    <string name="dialog_openning_msg">Öffne ...</string>
+    <string name="btn_refresh">Aktualisieren</string>
+    <string name="no_such_app">Keine Anwendung kann die Datei öffnen.</string>
+    <string name="dialog_wlan_fail">Fehler</string>
+    <string name="dialog_wlan_msg">Um DLNA zu starten, muss WLAN aktiviert sein. Jetzt aktivieren?</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">eHomeMediaCenter</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">Mediengerät wird initialisiert, bitte warten ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">Ausgewählt</string>
+    <string name="dmd_key_clear">Einträge löschen</string>
+    <string name="dmd_clear_transfer_msg">Sicher alle Einträge löschen?</string>
+    <string name="dmd_clear_transfer_all">Alle Löschen</string>
+    <string name="dmd_clear_transfer_succ">Löschen abgeschlossen.</string>
+    <string name="dmd_file_not_exitsted">Datei nicht gefunden</string>
+    <string name="dmu_device_selector_title">Upload nach</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">Media Player</string>
+    <string name="dmp_device_item_desc">Dateien</string>
+    <string name="dmp_media_playing">...</string>
+    <string name="dmp_back_last_dir">...</string>
+    <string name="dmp_media_device">Mediengeräte</string>
+    <string name="dmp_key_direction">Auswählen</string>
+    <string name="dmp_key_ok">Ausgewählt/Wiedergabe</string>
+    <string name="dmp_key_download">laden / herunterladen der ausgewählten Datei</string>
+    <string name="dmp_key_back">Zurück</string>
+    <string name="dmp_btn_transfer">Übertragungen</string>
+    <string name="dmp_transfer_list_title">Dateiname</string>
+    <string name="dmp_transfer_list_src">Quelle</string>
+    <string name="dmp_transfer_list_dest">Ziel</string>
+    <string name="dmp_transfer_list_status">Status</string>
+    <string name="dmp_transfer_dialog_title">Dateiname: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">Dateigröße: &#160;</string>
+    <string name="dmp_transfer_dialog_src">Quelle: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">Ziel: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">Wiedergabe</string>
+    <string name="dmp_transfer_dialog_btn_retry">wiederholen</string>
+    <string name="dmp_transfer_dialog_btn_stop">Stop</string>
+    <string name="dmp_transfer_dialog_btn_delete">löschen</string>
+    <string name="dmp_transfer_btn_delete">Alles löschen</string>
+    <string name="dmp_transfer_btn_delete_succ">Einträge erfolgreich gelöscht.</string>
+    <string name="dmp_transfer_status_waiting">Warten</string>
+    <string name="dmp_transfer_status_succ">Abgeschlossen</string>
+    <string name="dmp_transfer_status_fail">Fehlgeschlagen</string>
+    <string name="dmp_request_fail">Abfragefehler</string>
+    <string name="dmp_see_all_transfer">Alle Übertragungen anzeigen</string>
+    <string name="dmp_download_file_msg">Download der Datei <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">Upload der Datei <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_transfer_file_msg">Übertragen der Datei <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">hinzufügen</string>
+    <string name="dmp_download_add_item_fail">hinzufügen fehlgeschlagen</string>
+    <string name="dmp_media_item_null">Ungültige Quelle</string>
+    <string name="dmp_local_media_center">Mein Gerät</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(lokal)</string>
+    <string name="dmp_invalid_device">Ungültiges Gerät</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">Medien Server</string>
+    <string name="dms_device_share">lokal</string>
+    <string name="dms_open_share">Starten</string>
+    <string name="dms_close_share">Stoppen</string>
+    <string name="dms_set_share">hinzufügen</string>
+    <string name="dms_set_share_mediastore">Lokale Medien teilen</string>
+    <string name="dms_set_share_folder">hinzufügen</string>
+    <string name="dms_add_share_folder">hinzufügen</string>
+    <string name="dms_key_del_share">Lösche Verzeichnis</string>
+    <string name="dms_key_enter_folder">Verzeichnis öffnen</string>
+    <string name="dms_key_set_folder">Verzeichnis auswählen</string>
+    <string name="dms_image">meine Bilder</string>
+    <string name="dms_audio">meine Musik</string>
+    <string name="dms_video">meine Videos</string>
+    <string name="dms_device_storage">lokale Speichergeräte</string>
+    <string name="dms_sdcard_storage">SD Karte</string>
+    <string name="dms_flash_storage">interner Speicher</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">aktiviert</string>
+    <string name="dms_share_disabled">deaktiviert</string>
+    <string name="dms_share_enable_msg">wird aktiviert...</string>
+    <string name="dms_share_disable_msg">wird deaktiviert...</string>
+    <string name="dms_remove_mediastore">Lokale Medien entfernen?</string>
+    <string name="dms_remove_directory">Verzeichnis  <xliff:g id="dd">%s</xliff:g> entfernen?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_name">Gerät umbenennen</string>
+    <string name="settings_upload">Erlaube den Upload zu lokalen Geräten</string>
+    <string name="settings_upload_allow">Erlaube Upload</string>
+    <string name="settings_upload_reject">Upload nicht erlaubt</string>
+    <string name="settings_auto_start">Auto-Start</string>
+    <string name="settings_auto_yes">automatisch starten</string>
+    <string name="settings_auto_no">Nicht automatisch starten</string>
+    <string name="settings_key_ok">Option ändern</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">erstes Bild</string>
+    <string name="plug_image_last_img">letztes Bild</string>
+    <string name="plug_image_slide">Wiedergabe</string>
+    <string name="plug_image_stop_slide">Stop</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">"Lade <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="plug_music_playback_failed">"Leider unterstützt der Player nicht diese Art von Audio-Dateien."</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">Video Laden ...</string>
+    <string name="plug_video_waiting">Bitte warten</string>
+    <string name="plug_video_err_unknown">Leider kann dieses Video nicht abgespielt werden.</string>
+    <string name="plug_video_err_title">Dieses Video kann nicht agbespielt werden.</string>
+    <string name="plug_video_err_unsupport">Das Format wird nicht unterstützt.</string>
+    <string name="plug_video_playmode_title">Wählen Sie den Wiedergabemodus</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>

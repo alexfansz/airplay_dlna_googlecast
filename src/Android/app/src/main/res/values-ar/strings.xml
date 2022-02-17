@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">screenGo.TV</string>
+    <string name="device_name">الصفحة الرئيسية المركز الإعلامي</string>
+    <string name="dialog_waiting">يرجى الانتظار</string>
+    <string name="dialog_prompt">دفع</string>
+    <string name="dialog_operate">تعمل</string>
+    <string name="dialog_ok">حسنا</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_search_msg">يتم البحث الجهاز، ما إذا كانت إعادة المحاولة?</string>
+    <string name="toast_disconn_service">غير متصل على L D N A</string>
+    <string name="dialog_searching_msg">البحث الجهاز ...</string>
+    <string name="dialog_openning_msg">افتتاح ...</string>
+    <string name="btn_refresh">تحديث</string>
+    <string name="no_such_app">لا يمكن تطبيق فتح هذا الملف!</string>
+    <string name="dialog_wlan_fail">دفع</string>
+    <string name="dialog_wlan_msg">بدء DLNA تحتاج إلى فتح WLAN،، تأكد لفتح؟</string>
+    
+    <!-- Home -->
+    <string name="main_logo_name">الصفحة الرئيسية المركز الإعلامي</string>
+    <string name="main_copyright">Copyright © 2018 - 2020 www.basicgo.net. All Rights Reserved.</string>
+    <string name="main_supportinfo">Technical support: alex@blueberry-tek.com www.basicgo.net</string>
+    <string name="main_dms_initing">الوسائط تتم تهيئة، الرجاء الانتظار ...</string>
+    
+    <!-- Digital Media Download/Uploader -->
+    <string name="dmd_key_ok">تعمل العنصر الحالي</string>
+    <string name="dmd_key_clear">نقل سلع واضحة</string>
+    <string name="dmd_clear_transfer_msg">لتأكيد أنك تريد مسح البنود نقل.?</string>
+    <string name="dmd_clear_transfer_all">مسح كافة</string>
+    <string name="dmd_clear_transfer_succ">المواد واضحة في إنجاز</string>
+    <string name="dmd_file_not_exitsted">الملف غير موجود</string>
+    <string name="dmu_device_selector_title">تحميلها على</string>
+    
+    <!-- Digital Media Player -->
+    <string name="dmp_title">وسائل الاعلام لاعب</string>
+    <string name="dmp_device_item_desc">ملفات الوسائط</string>
+    <string name="dmp_media_playing">…</string>
+    <string name="dmp_back_last_dir">العودة إلى السابق</string>
+    <string name="dmp_media_device">جميع أجهزة الوسائط</string>
+    <string name="dmp_key_direction">حدد</string>
+    <string name="dmp_key_ok">تحديد / العرض</string>
+    <string name="dmp_key_download">تحميل / تنزيل الملف المحدد</string>
+    <string name="dmp_key_back">عودة</string>
+    <string name="dmp_btn_transfer">نقل قائمة</string>
+    <string name="dmp_transfer_list_title">اسم الملف</string>
+    <string name="dmp_transfer_list_src">المصدر موقع</string>
+    <string name="dmp_transfer_list_dest">المكان المقصود</string>
+    <string name="dmp_transfer_list_status">نقل الحالة</string>
+    <string name="dmp_transfer_dialog_title">اسم الملف: &#160;</string>
+    <string name="dmp_transfer_dialog_filesize">حجم الملف: &#160;</string>
+    <string name="dmp_transfer_dialog_src">المصدر موقع: &#160;</string>
+    <string name="dmp_transfer_dialog_dest">المكان المقصود: &#160;</string>
+    <string name="dmp_transfer_dialog_btn_play">تشغيل</string>
+    <string name="dmp_transfer_dialog_btn_retry">إعادة المحاولة</string>
+    <string name="dmp_transfer_dialog_btn_stop">توقف</string>
+    <string name="dmp_transfer_dialog_btn_delete">حذف</string>
+    <string name="dmp_transfer_btn_delete">حذف جميع</string>
+    <string name="dmp_transfer_btn_delete_succ">حذف العناصر بنجاح</string>
+    <string name="dmp_transfer_status_waiting">انتظار</string>
+    <string name="dmp_transfer_status_succ">نجاح</string>
+    <string name="dmp_transfer_status_fail">فشل</string>
+    <string name="dmp_request_fail">فشل وسائل الإعلام طلب قائمة </string>
+    <string name="dmp_see_all_transfer">عرض قائمة الانتقالات</string>
+    <string name="dmp_download_file_msg">سواء لتحميل الملف <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_upload_file_msg">سواء لتحميل الملفات <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_transfer_file_msg">سواء لتحميل / تنزيل الملفات <xliff:g id="dd">%s</xliff:g></string>
+    <string name="dmp_download_add_item">تم إضافتها إلى قائمة الانتقالات</string>
+    <string name="dmp_download_add_item_fail">إضافة فشل</string>
+    <string name="dmp_media_item_null">غير صالحة للموارد</string>
+    <string name="dmp_local_media_center">جهازي</string>
+    <string name="dmp_local_device"><xliff:g>%s</xliff:g>(Native)</string>
+    <string name="dmp_invalid_device">الجهاز الحالي ساقطا</string>
+    <string name="settings_airplaymirror_fullscreen">Screen mirror full screen</string>
+    <string name="settings_airplay_forcemirroring">Airplay force mirroring</string>
+
+    <!-- Digital Media Server -->
+    <string name="dms_title">وسائل الاعلام الخادم</string>
+    <string name="dms_device_share">تقاسم الأصلية</string>
+    <string name="dms_open_share">فتح تقاسم</string>
+    <string name="dms_close_share">إغلاق تقاسم</string>
+    <string name="dms_set_share">إضافة تقاسم</string>
+    <string name="dms_set_share_mediastore">تقاسم الأصلية مكتبة الوسائط </string>
+    <string name="dms_set_share_folder">تعيين مجلد مشاركة</string>
+    <string name="dms_add_share_folder">إضافة مجلد مشاركة</string>
+    <string name="dms_key_del_share">حذف مجلد مشاركة</string>
+    <string name="dms_key_enter_folder">أدخل مجلد مشاركة</string>
+    <string name="dms_key_set_folder">تعيين مجلد مشاركة</string>
+    <string name="dms_image">صوري</string>
+    <string name="dms_audio">بلدي الموسيقى</string>
+    <string name="dms_video">بلدي الفيديو</string>
+    <string name="dms_device_storage">أجهزة التخزين الأصلي</string>
+    <string name="dms_sdcard_storage">SD بطاقة</string>
+    <string name="dms_flash_storage">القرص الأصلي</string>
+    <string name="dms_usb_storage">USB</string>
+    <string name="dms_share_enabled">تم تمكين مشاركة</string>
+    <string name="dms_share_disabled">تقاسم معطلة</string>
+    <string name="dms_share_enable_msg">المشتركة المفتوحة ...</string>
+    <string name="dms_share_disable_msg">شارك إغلاق ...</string>
+    <string name="dms_remove_mediastore">هل أنت متأكد من إزالة تقاسم مكتبة الوسائط?</string>
+    <string name="dms_remove_directory">تأكد من إزالة  <xliff:g id="dd">%s</xliff:g> مجلد مشاركة?</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">إعدادات النظام</string>
+    <string name="settings_name">تعيين مشاركة الوسائط الأصلية اسم</string>
+    <string name="settings_upload">تسمح بتحميل ملفات الوسائط إلى الجهاز</string>
+    <string name="settings_upload_allow">تسمح تحميل</string>
+    <string name="settings_upload_reject">يحظر تحميل</string>
+    <string name="settings_auto_start">مع بدء التشغيل التلقائي لنظام الجهاز سوف باعتبارها معدات التشغيل</string>
+    <string name="settings_auto_yes">تشغيل تلقائيا</string>
+    <string name="settings_auto_no">لا يعمل تلقائيا</string>
+    <string name="settings_key_ok">تغيير الخيار</string>
+    
+    <!-- Plugins Picture Player -->
+    <string name="plug_image_first_img">هو بالفعل أول صور</string>
+    <string name="plug_image_last_img">صور بالفعل مشاركة</string>
+    <string name="plug_image_slide">بدء اللعب</string>
+    <string name="plug_image_stop_slide">التوقف عن اللعب</string>
+    
+    <!-- Plugins Music Player -->
+    <string name="plug_music_loading">"الرابط <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="plug_music_playback_failed">"آسف، لاعب لا يدعم هذا النوع من الملفات الصوتية。"</string>
+    
+    <!-- Plugins Video Player -->
+    <string name="plug_video_loading">تحميل الفيديو ...</string>
+    <string name="plug_video_waiting">يرجى الانتظار</string>
+    <string name="plug_video_err_unknown">عذرا، لا يمكنك تشغيل هذا الفيديو.</string>
+    <string name="plug_video_err_title">عذرا، لا يمكنك تشغيل هذا الفيديو.</string>
+    <string name="plug_video_err_unsupport">عذرا، لا يدعم هذا الفيديو..</string>
+    <string name="plug_video_playmode_title">حدد طريقة اللعب</string>
+
+    <!-- -->
+    <string name="device_windows">USB transmitter</string>
+    <string name="device_airplay">Airplay</string>
+    <string name="device_android">ScreenGo app</string>
+</resources>
