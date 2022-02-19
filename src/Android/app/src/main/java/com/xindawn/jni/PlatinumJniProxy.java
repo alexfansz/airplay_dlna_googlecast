@@ -1,6 +1,7 @@
 package com.xindawn.jni;
 
 import android.content.Context;
+import android.os.Build;
 import android.widget.Toast;
 
 import com.xindawn.RenderApplication;
@@ -58,9 +59,9 @@ public class PlatinumJniProxy {
     	String objpath = findLibrary1(RenderApplication.getInstance(),"mediaserver");
 
     	if(RenderApplication.getInstance().mDeviceInfo.aiplayMirrorUsingHw){
-            ret = startMediaRender(friendname,objpath,RenderApplication.getInstance().mDeviceInfo.mMacAddress+"@"+RenderApplication.getInstance().mDeviceInfo.APP_CHANNEL,RenderApplication.getInstance().mDeviceInfo.width,RenderApplication.getInstance().mDeviceInfo.height,RenderApplication.getInstance().mDeviceInfo.airtunes_port, RenderApplication.getInstance().mDeviceInfo.airplay_port,128*1024,RenderApplication.getInstance());
+            ret = startMediaRender(friendname,objpath,RenderApplication.getInstance().mDeviceInfo.mMacAddress+"@"+ Build.BRAND +" "+ Build.MODEL,RenderApplication.getInstance().mDeviceInfo.width,RenderApplication.getInstance().mDeviceInfo.height,RenderApplication.getInstance().mDeviceInfo.airtunes_port, RenderApplication.getInstance().mDeviceInfo.airplay_port,128*1024,RenderApplication.getInstance());
         }else {
-            ret = startMediaRender(friendname,objpath,RenderApplication.getInstance().mDeviceInfo.mMacAddress+"@"+RenderApplication.getInstance().mDeviceInfo.APP_CHANNEL,1280, 720, RenderApplication.getInstance().mDeviceInfo.airtunes_port,RenderApplication.getInstance().mDeviceInfo.airplay_port,128*1024,RenderApplication.getInstance());
+            ret = startMediaRender(friendname,objpath,RenderApplication.getInstance().mDeviceInfo.mMacAddress+"@"+Build.BRAND +" "+ Build.MODEL,1280, 720, RenderApplication.getInstance().mDeviceInfo.airtunes_port,RenderApplication.getInstance().mDeviceInfo.airplay_port,128*1024,RenderApplication.getInstance());
         }
 
         return ret;

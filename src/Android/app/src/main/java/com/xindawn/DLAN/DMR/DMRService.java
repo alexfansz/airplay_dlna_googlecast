@@ -5,6 +5,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
@@ -477,7 +478,7 @@ public class DMRService extends Service implements VolumeControl.VolumeChangeLis
             strUUID = UUID.randomUUID().toString();
             dmrData.edit().putString("UUID", strUUID).commit();
         }*/
-        String strUUID = RenderApplication.getInstance().mDeviceInfo.mMacAddress+"@"+RenderApplication.getInstance().mDeviceInfo.APP_CHANNEL;
+        String strUUID = RenderApplication.getInstance().mDeviceInfo.mMacAddress+"@"+ Build.BRAND +" "+ Build.MODEL;
         Log.v(TAG, "The UUID is " + strUUID);
         return strUUID;
     }
