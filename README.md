@@ -1,5 +1,6 @@
 # airplay dlna googlecast
 Airplay Airplay2 DLNA SDK Source code 源码
+www.basicgo.net
 #
 Android平台(接收安卓，苹果手机，windows电脑usb投屏器).
 支持多播和广播， 不过家用wifi路由器多播和广播
