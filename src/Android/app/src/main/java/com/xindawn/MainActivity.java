@@ -146,24 +146,17 @@ private static final CommonLog log = LogFactory.createLog();
 
 	@Override
 	public void onClick(View v) {
-		switch(v.getId()){
-		case R.id.btn_init:
-			start();
-			break;
-		case R.id.btn_reset:
-			reset();
-			break;
-		case R.id.btn_exit:
-			stop();
-			//finish();
-			break;
-		case R.id.bt_dev_name:
-		case R.id.checkbox1:
-		case R.id.checkbox2:
-		case R.id.checkbox3:
-			change();
-			break;
-		}
+        int id = v.getId();
+        if (id == R.id.btn_init) {
+            start();
+        } else if (id == R.id.btn_reset) {
+            reset();
+        } else if (id == R.id.btn_exit) {
+            stop();
+            //finish();
+        } else if (id == R.id.bt_dev_name || id == R.id.checkbox1 || id == R.id.checkbox2 || id == R.id.checkbox3) {
+            change();
+        }
 	}
 
 	private void start(){

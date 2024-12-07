@@ -1,22 +1,22 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion '29.0.3'
+    namespace 'com.xindawn'
+    compileSdkVersion 34
 
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "net.basicgo.tvcast"
         minSdkVersion 23
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 28
         versionName "2.0"
 
         ndk {
 
-            //abiFilters 'armeabi-v7a'
-            abiFilters 'armeabi-v7a','arm64-v8a'
+            abiFilters 'armeabi-v7a'
+            //abiFilters 'armeabi-v7a','arm64-v8a'
         }
     }
 
@@ -62,9 +62,8 @@ android {
     }
 
     compileOptions {
-        incremental = false;
-        targetCompatibility JavaVersion.VERSION_1_8
-        sourceCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     ndkVersion '22.1.7171670'
 }

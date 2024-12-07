@@ -606,15 +606,12 @@ public class MusicActivity extends BaseActivity implements MediaControlBrocastFa
 		@Override
 		public void onClick(View v) {
 
-			switch(v.getId())
-			{
-				case R.id.btn_play:
-					play();
-					break;
-				case R.id.btn_pause:
-					pause();
-					break;
-			}
+            int id = v.getId();
+            if (id == R.id.btn_play) {
+                play();
+            } else if (id == R.id.btn_pause) {
+                pause();
+            }
 		}
 		
 		@Override

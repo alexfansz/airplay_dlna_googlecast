@@ -146,17 +146,16 @@
 
 		<RelativeLayout
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_centerInParent="true">
+			android:layout_height="wrap_content">
 			<TextView
 				android:id="@+id/tv_dev_info"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_centerHorizontal="true"
 				android:textColor="@color/black"
 				android:textSize="22sp" />
 			<RelativeLayout
-				android:layout_width="match_parent"
+				android:id="@+id/devinfo_l"
+				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_alignLeft="@+id/tv_dev_info"
 				android:layout_below="@+id/tv_dev_info">
@@ -176,6 +175,20 @@
 					android:layout_toRightOf="@+id/version_info"
 					android:paddingLeft="@dimen/padding_left"
 					android:text="@string/app_name"
+					android:textColor="@color/black"
+					android:textSize="18sp" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView
+					android:id="@+id/author_info_v"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingRight="@dimen/padding_right"
+					android:text="www.basicgo.net"
 					android:textColor="@color/black"
 					android:textSize="18sp" />
 			</RelativeLayout>
