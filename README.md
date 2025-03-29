@@ -1,5 +1,6 @@
 # airplay dlna googlecast
 Airplay Airplay2 DLNA SDK Source code 源码 apple music mlti room 多房间音乐
+最新版本2.6.33
 www.basicgo.net/about
 #
 支持Android,windows,Linux.
