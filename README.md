@@ -1,28 +1,18 @@
-# airplay2 miracast
-Airplay Airplay2 DLNA SDK Source code 源码 apple music mlti room 多房间音乐
-最新版本2.6.33
-www.basicgo.net/about
-#
-支持Android,windows,Linux.
+http://wwww.basicgo.net/about
+### 特性表
+  项目  | 特性| 兼容性测试
+  --------|------|------
+  Airplay2  | 支持屏幕mirroring,音视频casting,支持双路高清同屏镜像iphone,macbook混合同时投屏*| 兼容Youtube、Netflix App投播模式
+  Dlna Dmr | 支持音乐，图片，电影投播 | QQ音乐,酷狗音乐, 腾讯视频,爱奇艺,Bilibili,头条演播厅,芒果TV,华为视频等各种网络视频应用
+  Windows电脑投屏 | 支持Windows,ios/macos,安卓混合投屏* | Windows电脑需要安装软件,支持win7及以上
+  安卓手机、平板投屏 | 支持Windows,ios/macos,安卓混合投屏* | 安卓平板手机需要安卓app, 支持安卓5.0及以上
+  动态切换镜像图像旋转角度 | 支持ios/macOs,windows,android手机平板镜像投屏中动态调整角度 | 用电视遥控器按OK键动态调整90、180、270、360度旋转
+<!--more-->
+*双路HD苹果、安卓和Winddows设备同时投屏,建议4k电视运行以展示效果。
 
-#
-#
-#
-#
-==================================
-#
-Windows平台（接收安卓，苹果手机投屏软件）
-1. 安装苹果公司组件Bonjour.msi
-2. 安装应用程序ScreenGoSetup.msi
+## [嵌入式投屏开发，支持ARM,MISC,RISC-V]
+## Windows平台(http://www.basicgo.net/p/screengo-win/)
 ![image](win_reciever.png)
-#
-Windows平台，支持usb发射器
-![image](Windows/sender/U2_Source.jpg)
-#
-技术支持: alex_fan_sz@hotmail.com
-出售Airplay SDK ,souce code 源码
 
-The Windows/Android app supports airplay2 and dlna.
-
-email: alex_fan_sz@hotmail.com
-phone & wechat: 18718770267
+邮箱: alex_fan_sz@hotmail.com
+微信: 18718770267
