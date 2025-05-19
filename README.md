@@ -7,6 +7,7 @@ http://wwww.basicgo.net/about
   Windows电脑投屏 | 支持Windows,ios/macos,安卓混合投屏* | Windows电脑需要安装软件,支持win7及以上
   安卓手机、平板投屏 | 支持Windows,ios/macos,安卓混合投屏* | 安卓平板手机需要安卓app, 支持安卓5.0及以上
   动态切换镜像图像旋转角度 | 支持ios/macOs,windows,android手机平板镜像投屏中动态调整角度 | 用电视遥控器按OK键动态调整90、180、270、360度旋转
+  反控计算机 | 支持从安装兔兔投屏的电视通过触屏控制电脑，包括Windows,Linux,Macos，树莓派等 | Windows系统->设置->远程桌面，Linux->xrdp,macOs各种Rdp Server, 支持局域网和跨网段网络环境
 <!--more-->
 *双路HD苹果、安卓和Winddows设备同时投屏,建议4k电视运行以展示效果。
 
