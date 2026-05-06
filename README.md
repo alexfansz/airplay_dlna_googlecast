@@ -19,8 +19,8 @@
 ### 软件下载
 - [兔兔投屏TV端-粤ICP备19152763号-3A](https://www.basicgo.net/software/Android/unicast/unicast.apk)、[当贝市场下载](http://down.znds.com/apk/tool/2025/0908/9213.html)
 - [兔兔相册](https://basicgo.net/p/gallery/)、[安卓手机镜像客户端-粤ICP备19152763号-4A](https://www.basicgo.net/software/Android/unicast/m2.apk)
-- [Edge浏览器插件](https://microsoftedge.microsoft.com/addons/detail/ponjpokknckocdjelodeinamhfejdmgf)
-- [Chrome浏览器插件](https://chromewebstore.google.com/detail/micegifcopbegjknnegbfddecealhckk?utm_source=item-share-cb)
+- [Edge浏览器插件v1.2.6](https://microsoftedge.microsoft.com/addons/detail/ponjpokknckocdjelodeinamhfejdmgf)
+- [Chrome浏览器插件v1.2.6](https://chromewebstore.google.com/detail/micegifcopbegjknnegbfddecealhckk?utm_source=item-share-cb)
 <!--
 http://down.znds.com/apk/tool/2025/0908/9213.html
 https://bt.znds.com/apk/tool/2025/0908/9213.html
