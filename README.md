@@ -18,7 +18,7 @@
 
 ### 软件下载
 - [Play Store](https://play.google.com/store/apps/details?id=net.basicgo.unicast&pcampaignid=web_share)
-- [当贝市场下载](http://down.znds.com/apk/tool/2025/0908/9213.html)
+- [当贝市场下载](https://www.dangbei.com/app/tv/2025/0908/9213.html)
 - [兔兔相册](https://basicgo.net/p/gallery/)
 - [Edge浏览器插件v1.2.9](https://microsoftedge.microsoft.com/addons/detail/ponjpokknckocdjelodeinamhfejdmgf)
 - [Chrome浏览器插件v1.2.9](https://chromewebstore.google.com/detail/ggejpagcgginpfkkohlcpoolhdipfpgp?utm_source=item-share-cb)
